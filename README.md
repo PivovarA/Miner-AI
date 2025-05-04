@@ -28,6 +28,7 @@ In Treasure Hunter, players navigate a grid-based arena filled with obstacles, t
 
 - Python 3.9+
 - Node.js (for running the web server)
+- Modern web browser
 
 ### Installation
 
@@ -277,3 +278,9 @@ app.debug = True
 ## 📄 License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
+
+## 🙏 Acknowledgments
+
+- Built with Flask, PyTorch, and vanilla JavaScript
+- Inspired by competitive multiplayer games
+- Uses reinforcement learning techniques from DeepMind's DQN paper
