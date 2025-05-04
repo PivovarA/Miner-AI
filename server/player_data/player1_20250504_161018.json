@@ -1,0 +1,6386 @@
+{
+  "player_name": "player1",
+  "session_start": 1746367725633,
+  "session_end": 1746367758895,
+  "duration": 33262,
+  "final_score": 30,
+  "treasures_collected": 3,
+  "survived": false,
+  "won": true,
+  "actions": [
+    {
+      "timestamp": 1573,
+      "state": {
+        "bot_id": "player",
+        "bot_position": {
+          "x": 35,
+          "y": 13
+        },
+        "bot_direction": 1.5707963267948966,
+        "bot_treasures": 0,
+        "bot_remaining_traps": 10,
+        "bot_alive": true,
+        "total_treasures": 5,
+        "treasures_collected": 0,
+        "visible_treasures": [],
+        "visible_bots": [],
+        "visible_traps": [],
+        "visible_obstacles": [
+          {
+            "x": -2,
+            "y": 4
+          },
+          {
+            "x": 0,
+            "y": 6
+          }
+        ],
+        "bot_scores": [
+          {
+            "id": "player",
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 0,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 1,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 2,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 3,
+            "treasures": 0,
+            "alive": true
+          }
+        ],
+        "time_remaining": 118427,
+        "game_over": false,
+        "explosions_available": false
+      },
+      "action": "move_down",
+      "position": {
+        "x": 35,
+        "y": 13
+      },
+      "direction": 1.5707963267948966,
+      "treasures": 0,
+      "remainingTraps": 10
+    },
+    {
+      "timestamp": 2081,
+      "state": {
+        "bot_id": "player",
+        "bot_position": {
+          "x": 34,
+          "y": 13
+        },
+        "bot_direction": 3.141592653589793,
+        "bot_treasures": 0,
+        "bot_remaining_traps": 10,
+        "bot_alive": true,
+        "total_treasures": 5,
+        "treasures_collected": 0,
+        "visible_treasures": [],
+        "visible_bots": [],
+        "visible_traps": [],
+        "visible_obstacles": [
+          {
+            "x": -4,
+            "y": -1
+          },
+          {
+            "x": -4,
+            "y": 0
+          },
+          {
+            "x": -4,
+            "y": 1
+          },
+          {
+            "x": -6,
+            "y": 3
+          }
+        ],
+        "bot_scores": [
+          {
+            "id": "player",
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 0,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 1,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 2,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 3,
+            "treasures": 0,
+            "alive": true
+          }
+        ],
+        "time_remaining": 117919,
+        "game_over": false,
+        "explosions_available": false
+      },
+      "action": "move_left",
+      "position": {
+        "x": 34,
+        "y": 13
+      },
+      "direction": 3.141592653589793,
+      "treasures": 0,
+      "remainingTraps": 10
+    },
+    {
+      "timestamp": 2373,
+      "state": {
+        "bot_id": "player",
+        "bot_position": {
+          "x": 33,
+          "y": 13
+        },
+        "bot_direction": 3.141592653589793,
+        "bot_treasures": 0,
+        "bot_remaining_traps": 10,
+        "bot_alive": true,
+        "total_treasures": 5,
+        "treasures_collected": 0,
+        "visible_treasures": [],
+        "visible_bots": [],
+        "visible_traps": [],
+        "visible_obstacles": [
+          {
+            "x": -3,
+            "y": -1
+          },
+          {
+            "x": -3,
+            "y": 0
+          },
+          {
+            "x": -3,
+            "y": 1
+          }
+        ],
+        "bot_scores": [
+          {
+            "id": "player",
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 0,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 1,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 2,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 3,
+            "treasures": 0,
+            "alive": true
+          }
+        ],
+        "time_remaining": 117627,
+        "game_over": false,
+        "explosions_available": false
+      },
+      "action": "move_left",
+      "position": {
+        "x": 33,
+        "y": 13
+      },
+      "direction": 3.141592653589793,
+      "treasures": 0,
+      "remainingTraps": 10
+    },
+    {
+      "timestamp": 2790,
+      "state": {
+        "bot_id": "player",
+        "bot_position": {
+          "x": 33,
+          "y": 12
+        },
+        "bot_direction": 4.71238898038469,
+        "bot_treasures": 0,
+        "bot_remaining_traps": 10,
+        "bot_alive": true,
+        "total_treasures": 5,
+        "treasures_collected": 0,
+        "visible_treasures": [],
+        "visible_bots": [],
+        "visible_traps": [],
+        "visible_obstacles": [
+          {
+            "x": 4,
+            "y": -9
+          },
+          {
+            "x": -2,
+            "y": -5
+          },
+          {
+            "x": -1,
+            "y": -5
+          },
+          {
+            "x": 0,
+            "y": -5
+          },
+          {
+            "x": 4,
+            "y": -9
+          },
+          {
+            "x": 1,
+            "y": -8
+          },
+          {
+            "x": 2,
+            "y": -8
+          },
+          {
+            "x": 3,
+            "y": -8
+          }
+        ],
+        "bot_scores": [
+          {
+            "id": "player",
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 0,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 1,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 2,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 3,
+            "treasures": 0,
+            "alive": true
+          }
+        ],
+        "time_remaining": 117210,
+        "game_over": false,
+        "explosions_available": false
+      },
+      "action": "move_up",
+      "position": {
+        "x": 33,
+        "y": 12
+      },
+      "direction": 4.71238898038469,
+      "treasures": 0,
+      "remainingTraps": 10
+    },
+    {
+      "timestamp": 3297,
+      "state": {
+        "bot_id": "player",
+        "bot_position": {
+          "x": 32,
+          "y": 12
+        },
+        "bot_direction": 3.141592653589793,
+        "bot_treasures": 0,
+        "bot_remaining_traps": 10,
+        "bot_alive": true,
+        "total_treasures": 5,
+        "treasures_collected": 0,
+        "visible_treasures": [],
+        "visible_bots": [],
+        "visible_traps": [],
+        "visible_obstacles": [
+          {
+            "x": -2,
+            "y": 0
+          },
+          {
+            "x": -2,
+            "y": 1
+          }
+        ],
+        "bot_scores": [
+          {
+            "id": "player",
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 0,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 1,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 2,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 3,
+            "treasures": 0,
+            "alive": true
+          }
+        ],
+        "time_remaining": 116703,
+        "game_over": false,
+        "explosions_available": false
+      },
+      "action": "move_left",
+      "position": {
+        "x": 32,
+        "y": 12
+      },
+      "direction": 3.141592653589793,
+      "treasures": 0,
+      "remainingTraps": 10
+    },
+    {
+      "timestamp": 3496,
+      "state": {
+        "bot_id": "player",
+        "bot_position": {
+          "x": 31,
+          "y": 12
+        },
+        "bot_direction": 3.141592653589793,
+        "bot_treasures": 0,
+        "bot_remaining_traps": 10,
+        "bot_alive": true,
+        "total_treasures": 5,
+        "treasures_collected": 0,
+        "visible_treasures": [],
+        "visible_bots": [],
+        "visible_traps": [],
+        "visible_obstacles": [
+          {
+            "x": -1,
+            "y": 0
+          }
+        ],
+        "bot_scores": [
+          {
+            "id": "player",
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 0,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 1,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 2,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 3,
+            "treasures": 0,
+            "alive": true
+          }
+        ],
+        "time_remaining": 116504,
+        "game_over": false,
+        "explosions_available": false
+      },
+      "action": "move_left",
+      "position": {
+        "x": 31,
+        "y": 12
+      },
+      "direction": 3.141592653589793,
+      "treasures": 0,
+      "remainingTraps": 10
+    },
+    {
+      "timestamp": 3704,
+      "state": {
+        "bot_id": "player",
+        "bot_position": {
+          "x": 31,
+          "y": 11
+        },
+        "bot_direction": 4.71238898038469,
+        "bot_treasures": 0,
+        "bot_remaining_traps": 10,
+        "bot_alive": true,
+        "total_treasures": 5,
+        "treasures_collected": 0,
+        "visible_treasures": [],
+        "visible_bots": [],
+        "visible_traps": [],
+        "visible_obstacles": [
+          {
+            "x": -9,
+            "y": -4
+          },
+          {
+            "x": -9,
+            "y": -3
+          },
+          {
+            "x": -9,
+            "y": -2
+          },
+          {
+            "x": 0,
+            "y": -4
+          },
+          {
+            "x": 1,
+            "y": -4
+          },
+          {
+            "x": 2,
+            "y": -4
+          },
+          {
+            "x": -9,
+            "y": -2
+          },
+          {
+            "x": -9,
+            "y": -1
+          }
+        ],
+        "bot_scores": [
+          {
+            "id": "player",
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 0,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 1,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 2,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 3,
+            "treasures": 0,
+            "alive": true
+          }
+        ],
+        "time_remaining": 116296,
+        "game_over": false,
+        "explosions_available": false
+      },
+      "action": "move_up",
+      "position": {
+        "x": 31,
+        "y": 11
+      },
+      "direction": 4.71238898038469,
+      "treasures": 0,
+      "remainingTraps": 10
+    },
+    {
+      "timestamp": 4591,
+      "state": {
+        "bot_id": "player",
+        "bot_position": {
+          "x": 31,
+          "y": 10
+        },
+        "bot_direction": 4.71238898038469,
+        "bot_treasures": 0,
+        "bot_remaining_traps": 10,
+        "bot_alive": true,
+        "total_treasures": 5,
+        "treasures_collected": 0,
+        "visible_treasures": [
+          {
+            "x": -4,
+            "y": -9
+          }
+        ],
+        "visible_bots": [
+          {
+            "id": 1,
+            "x": -3,
+            "y": -9,
+            "treasures": 0,
+            "traps_remaining": 7
+          }
+        ],
+        "visible_traps": [],
+        "visible_obstacles": [
+          {
+            "x": -9,
+            "y": -3
+          },
+          {
+            "x": -9,
+            "y": -2
+          },
+          {
+            "x": -9,
+            "y": -1
+          },
+          {
+            "x": 0,
+            "y": -3
+          },
+          {
+            "x": 1,
+            "y": -3
+          },
+          {
+            "x": -9,
+            "y": -1
+          }
+        ],
+        "bot_scores": [
+          {
+            "id": "player",
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 0,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 1,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 2,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 3,
+            "treasures": 0,
+            "alive": true
+          }
+        ],
+        "time_remaining": 115409,
+        "game_over": false,
+        "explosions_available": false
+      },
+      "action": "move_up",
+      "position": {
+        "x": 31,
+        "y": 10
+      },
+      "direction": 4.71238898038469,
+      "treasures": 0,
+      "remainingTraps": 10
+    },
+    {
+      "timestamp": 4906,
+      "state": {
+        "bot_id": "player",
+        "bot_position": {
+          "x": 30,
+          "y": 10
+        },
+        "bot_direction": 3.141592653589793,
+        "bot_treasures": 0,
+        "bot_remaining_traps": 10,
+        "bot_alive": true,
+        "total_treasures": 5,
+        "treasures_collected": 0,
+        "visible_treasures": [],
+        "visible_bots": [],
+        "visible_traps": [],
+        "visible_obstacles": [
+          {
+            "x": -8,
+            "y": -3
+          },
+          {
+            "x": -8,
+            "y": -2
+          },
+          {
+            "x": -8,
+            "y": -1
+          },
+          {
+            "x": -9,
+            "y": 1
+          },
+          {
+            "x": -9,
+            "y": 2
+          },
+          {
+            "x": -8,
+            "y": -1
+          },
+          {
+            "x": -8,
+            "y": 0
+          },
+          {
+            "x": -4,
+            "y": 2
+          }
+        ],
+        "bot_scores": [
+          {
+            "id": "player",
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 0,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 1,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 2,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 3,
+            "treasures": 0,
+            "alive": true
+          }
+        ],
+        "time_remaining": 115094,
+        "game_over": false,
+        "explosions_available": false
+      },
+      "action": "move_left",
+      "position": {
+        "x": 30,
+        "y": 10
+      },
+      "direction": 3.141592653589793,
+      "treasures": 0,
+      "remainingTraps": 10
+    },
+    {
+      "timestamp": 5145,
+      "state": {
+        "bot_id": "player",
+        "bot_position": {
+          "x": 29,
+          "y": 10
+        },
+        "bot_direction": 3.141592653589793,
+        "bot_treasures": 0,
+        "bot_remaining_traps": 10,
+        "bot_alive": true,
+        "total_treasures": 5,
+        "treasures_collected": 0,
+        "visible_treasures": [],
+        "visible_bots": [],
+        "visible_traps": [],
+        "visible_obstacles": [
+          {
+            "x": -7,
+            "y": -3
+          },
+          {
+            "x": -7,
+            "y": -2
+          },
+          {
+            "x": -7,
+            "y": -1
+          },
+          {
+            "x": -8,
+            "y": 1
+          },
+          {
+            "x": -8,
+            "y": 2
+          },
+          {
+            "x": -7,
+            "y": -1
+          },
+          {
+            "x": -7,
+            "y": 0
+          },
+          {
+            "x": -4,
+            "y": 2
+          }
+        ],
+        "bot_scores": [
+          {
+            "id": "player",
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 0,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 1,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 2,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 3,
+            "treasures": 0,
+            "alive": true
+          }
+        ],
+        "time_remaining": 114855,
+        "game_over": false,
+        "explosions_available": false
+      },
+      "action": "move_left",
+      "position": {
+        "x": 29,
+        "y": 10
+      },
+      "direction": 3.141592653589793,
+      "treasures": 0,
+      "remainingTraps": 10
+    },
+    {
+      "timestamp": 5322,
+      "state": {
+        "bot_id": "player",
+        "bot_position": {
+          "x": 29,
+          "y": 9
+        },
+        "bot_direction": 4.71238898038469,
+        "bot_treasures": 0,
+        "bot_remaining_traps": 10,
+        "bot_alive": true,
+        "total_treasures": 5,
+        "treasures_collected": 0,
+        "visible_treasures": [
+          {
+            "x": -2,
+            "y": -8
+          }
+        ],
+        "visible_bots": [
+          {
+            "id": 1,
+            "x": 0,
+            "y": -9,
+            "treasures": 0,
+            "traps_remaining": 6
+          }
+        ],
+        "visible_traps": [],
+        "visible_obstacles": [
+          {
+            "x": -7,
+            "y": -2
+          },
+          {
+            "x": -7,
+            "y": -1
+          },
+          {
+            "x": -8,
+            "y": -6
+          },
+          {
+            "x": 4,
+            "y": -8
+          },
+          {
+            "x": 4,
+            "y": -7
+          }
+        ],
+        "bot_scores": [
+          {
+            "id": "player",
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 0,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 1,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 2,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 3,
+            "treasures": 0,
+            "alive": true
+          }
+        ],
+        "time_remaining": 114678,
+        "game_over": false,
+        "explosions_available": false
+      },
+      "action": "move_up",
+      "position": {
+        "x": 29,
+        "y": 9
+      },
+      "direction": 4.71238898038469,
+      "treasures": 0,
+      "remainingTraps": 10
+    },
+    {
+      "timestamp": 12522,
+      "state": {
+        "bot_id": "player",
+        "bot_position": {
+          "x": 29,
+          "y": 8
+        },
+        "bot_direction": 4.71238898038469,
+        "bot_treasures": 0,
+        "bot_remaining_traps": 10,
+        "bot_alive": true,
+        "total_treasures": 5,
+        "treasures_collected": 1,
+        "visible_treasures": [],
+        "visible_bots": [
+          {
+            "id": 1,
+            "x": 0,
+            "y": -8,
+            "treasures": 1,
+            "traps_remaining": 2
+          }
+        ],
+        "visible_traps": [],
+        "visible_obstacles": [
+          {
+            "x": -7,
+            "y": -1
+          },
+          {
+            "x": -8,
+            "y": -6
+          },
+          {
+            "x": -8,
+            "y": -5
+          },
+          {
+            "x": 4,
+            "y": -7
+          }
+        ],
+        "bot_scores": [
+          {
+            "id": "player",
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 0,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 1,
+            "treasures": 1,
+            "alive": true
+          },
+          {
+            "id": 2,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 3,
+            "treasures": 0,
+            "alive": true
+          }
+        ],
+        "time_remaining": 107478,
+        "game_over": false,
+        "explosions_available": false
+      },
+      "action": "move_up",
+      "position": {
+        "x": 29,
+        "y": 8
+      },
+      "direction": 4.71238898038469,
+      "treasures": 0,
+      "remainingTraps": 10
+    },
+    {
+      "timestamp": 12718,
+      "state": {
+        "bot_id": "player",
+        "bot_position": {
+          "x": 29,
+          "y": 7
+        },
+        "bot_direction": 4.71238898038469,
+        "bot_treasures": 0,
+        "bot_remaining_traps": 10,
+        "bot_alive": true,
+        "total_treasures": 5,
+        "treasures_collected": 1,
+        "visible_treasures": [],
+        "visible_bots": [
+          {
+            "id": 1,
+            "x": 0,
+            "y": -6,
+            "treasures": 1,
+            "traps_remaining": 2
+          }
+        ],
+        "visible_traps": [],
+        "visible_obstacles": [
+          {
+            "x": -8,
+            "y": -5
+          },
+          {
+            "x": -8,
+            "y": -4
+          }
+        ],
+        "bot_scores": [
+          {
+            "id": "player",
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 0,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 1,
+            "treasures": 1,
+            "alive": true
+          },
+          {
+            "id": 2,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 3,
+            "treasures": 0,
+            "alive": true
+          }
+        ],
+        "time_remaining": 107282,
+        "game_over": false,
+        "explosions_available": false
+      },
+      "action": "move_up",
+      "position": {
+        "x": 29,
+        "y": 7
+      },
+      "direction": 4.71238898038469,
+      "treasures": 0,
+      "remainingTraps": 10
+    },
+    {
+      "timestamp": 12927,
+      "state": {
+        "bot_id": "player",
+        "bot_position": {
+          "x": 29,
+          "y": 6
+        },
+        "bot_direction": 4.71238898038469,
+        "bot_treasures": 0,
+        "bot_remaining_traps": 10,
+        "bot_alive": true,
+        "total_treasures": 5,
+        "treasures_collected": 1,
+        "visible_treasures": [],
+        "visible_bots": [
+          {
+            "id": 1,
+            "x": 0,
+            "y": -5,
+            "treasures": 1,
+            "traps_remaining": 2
+          }
+        ],
+        "visible_traps": [],
+        "visible_obstacles": [
+          {
+            "x": -8,
+            "y": -4
+          },
+          {
+            "x": -8,
+            "y": -3
+          }
+        ],
+        "bot_scores": [
+          {
+            "id": "player",
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 0,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 1,
+            "treasures": 1,
+            "alive": true
+          },
+          {
+            "id": 2,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 3,
+            "treasures": 0,
+            "alive": true
+          }
+        ],
+        "time_remaining": 107073,
+        "game_over": false,
+        "explosions_available": false
+      },
+      "action": "move_up",
+      "position": {
+        "x": 29,
+        "y": 6
+      },
+      "direction": 4.71238898038469,
+      "treasures": 0,
+      "remainingTraps": 10
+    },
+    {
+      "timestamp": 13123,
+      "state": {
+        "bot_id": "player",
+        "bot_position": {
+          "x": 29,
+          "y": 5
+        },
+        "bot_direction": 4.71238898038469,
+        "bot_treasures": 0,
+        "bot_remaining_traps": 10,
+        "bot_alive": true,
+        "total_treasures": 5,
+        "treasures_collected": 1,
+        "visible_treasures": [],
+        "visible_bots": [
+          {
+            "id": 1,
+            "x": -1,
+            "y": -4,
+            "treasures": 1,
+            "traps_remaining": 2
+          }
+        ],
+        "visible_traps": [],
+        "visible_obstacles": [
+          {
+            "x": -8,
+            "y": -3
+          },
+          {
+            "x": -8,
+            "y": -2
+          }
+        ],
+        "bot_scores": [
+          {
+            "id": "player",
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 0,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 1,
+            "treasures": 1,
+            "alive": true
+          },
+          {
+            "id": 2,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 3,
+            "treasures": 0,
+            "alive": true
+          }
+        ],
+        "time_remaining": 106877,
+        "game_over": false,
+        "explosions_available": false
+      },
+      "action": "move_up",
+      "position": {
+        "x": 29,
+        "y": 5
+      },
+      "direction": 4.71238898038469,
+      "treasures": 0,
+      "remainingTraps": 10
+    },
+    {
+      "timestamp": 13256,
+      "state": {
+        "bot_id": "player",
+        "bot_position": {
+          "x": 29,
+          "y": 4
+        },
+        "bot_direction": 4.71238898038469,
+        "bot_treasures": 0,
+        "bot_remaining_traps": 10,
+        "bot_alive": true,
+        "total_treasures": 5,
+        "treasures_collected": 1,
+        "visible_treasures": [],
+        "visible_bots": [
+          {
+            "id": 1,
+            "x": -1,
+            "y": -3,
+            "treasures": 1,
+            "traps_remaining": 2
+          }
+        ],
+        "visible_traps": [],
+        "visible_obstacles": [
+          {
+            "x": -8,
+            "y": -2
+          },
+          {
+            "x": -8,
+            "y": -1
+          }
+        ],
+        "bot_scores": [
+          {
+            "id": "player",
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 0,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 1,
+            "treasures": 1,
+            "alive": true
+          },
+          {
+            "id": 2,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 3,
+            "treasures": 0,
+            "alive": true
+          }
+        ],
+        "time_remaining": 106744,
+        "game_over": false,
+        "explosions_available": false
+      },
+      "action": "move_up",
+      "position": {
+        "x": 29,
+        "y": 4
+      },
+      "direction": 4.71238898038469,
+      "treasures": 0,
+      "remainingTraps": 10
+    },
+    {
+      "timestamp": 13437,
+      "state": {
+        "bot_id": "player",
+        "bot_position": {
+          "x": 29,
+          "y": 4
+        },
+        "bot_direction": 4.71238898038469,
+        "bot_treasures": 0,
+        "bot_remaining_traps": 9,
+        "bot_alive": true,
+        "total_treasures": 5,
+        "treasures_collected": 1,
+        "visible_treasures": [],
+        "visible_bots": [
+          {
+            "id": 1,
+            "x": -2,
+            "y": -3,
+            "treasures": 1,
+            "traps_remaining": 2
+          }
+        ],
+        "visible_traps": [],
+        "visible_obstacles": [
+          {
+            "x": -8,
+            "y": -2
+          },
+          {
+            "x": -8,
+            "y": -1
+          }
+        ],
+        "bot_scores": [
+          {
+            "id": "player",
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 0,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 1,
+            "treasures": 1,
+            "alive": true
+          },
+          {
+            "id": 2,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 3,
+            "treasures": 0,
+            "alive": true
+          }
+        ],
+        "time_remaining": 106563,
+        "game_over": false,
+        "explosions_available": true
+      },
+      "action": "drop_trap",
+      "position": {
+        "x": 29,
+        "y": 4
+      },
+      "direction": 4.71238898038469,
+      "treasures": 0,
+      "remainingTraps": 9
+    },
+    {
+      "timestamp": 13544,
+      "state": {
+        "bot_id": "player",
+        "bot_position": {
+          "x": 29,
+          "y": 4
+        },
+        "bot_direction": 4.71238898038469,
+        "bot_treasures": 0,
+        "bot_remaining_traps": 9,
+        "bot_alive": true,
+        "total_treasures": 5,
+        "treasures_collected": 1,
+        "visible_treasures": [],
+        "visible_bots": [],
+        "visible_traps": [],
+        "visible_obstacles": [
+          {
+            "x": -8,
+            "y": -2
+          },
+          {
+            "x": -8,
+            "y": -1
+          }
+        ],
+        "bot_scores": [
+          {
+            "id": "player",
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 0,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 1,
+            "treasures": 1,
+            "alive": false
+          },
+          {
+            "id": 2,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 3,
+            "treasures": 0,
+            "alive": true
+          }
+        ],
+        "time_remaining": 106456,
+        "game_over": false,
+        "explosions_available": false
+      },
+      "action": "explode_traps",
+      "position": {
+        "x": 29,
+        "y": 4
+      },
+      "direction": 4.71238898038469,
+      "treasures": 0,
+      "remainingTraps": 9
+    },
+    {
+      "timestamp": 14022,
+      "state": {
+        "bot_id": "player",
+        "bot_position": {
+          "x": 29,
+          "y": 5
+        },
+        "bot_direction": 1.5707963267948966,
+        "bot_treasures": 0,
+        "bot_remaining_traps": 9,
+        "bot_alive": true,
+        "total_treasures": 5,
+        "treasures_collected": 1,
+        "visible_treasures": [
+          {
+            "x": 4,
+            "y": 9
+          }
+        ],
+        "visible_bots": [],
+        "visible_traps": [],
+        "visible_obstacles": [
+          {
+            "x": 0,
+            "y": 7
+          },
+          {
+            "x": 1,
+            "y": 7
+          },
+          {
+            "x": -4,
+            "y": 7
+          },
+          {
+            "x": -3,
+            "y": 7
+          }
+        ],
+        "bot_scores": [
+          {
+            "id": "player",
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 0,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 1,
+            "treasures": 1,
+            "alive": false
+          },
+          {
+            "id": 2,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 3,
+            "treasures": 0,
+            "alive": true
+          }
+        ],
+        "time_remaining": 105978,
+        "game_over": false,
+        "explosions_available": false
+      },
+      "action": "move_down",
+      "position": {
+        "x": 29,
+        "y": 5
+      },
+      "direction": 1.5707963267948966,
+      "treasures": 0,
+      "remainingTraps": 9
+    },
+    {
+      "timestamp": 14171,
+      "state": {
+        "bot_id": "player",
+        "bot_position": {
+          "x": 29,
+          "y": 6
+        },
+        "bot_direction": 1.5707963267948966,
+        "bot_treasures": 0,
+        "bot_remaining_traps": 9,
+        "bot_alive": true,
+        "total_treasures": 5,
+        "treasures_collected": 1,
+        "visible_treasures": [
+          {
+            "x": 4,
+            "y": 8
+          }
+        ],
+        "visible_bots": [],
+        "visible_traps": [],
+        "visible_obstacles": [
+          {
+            "x": 0,
+            "y": 6
+          },
+          {
+            "x": 1,
+            "y": 6
+          },
+          {
+            "x": -3,
+            "y": 6
+          }
+        ],
+        "bot_scores": [
+          {
+            "id": "player",
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 0,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 1,
+            "treasures": 1,
+            "alive": false
+          },
+          {
+            "id": 2,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 3,
+            "treasures": 0,
+            "alive": true
+          }
+        ],
+        "time_remaining": 105829,
+        "game_over": false,
+        "explosions_available": false
+      },
+      "action": "move_down",
+      "position": {
+        "x": 29,
+        "y": 6
+      },
+      "direction": 1.5707963267948966,
+      "treasures": 0,
+      "remainingTraps": 9
+    },
+    {
+      "timestamp": 14340,
+      "state": {
+        "bot_id": "player",
+        "bot_position": {
+          "x": 29,
+          "y": 7
+        },
+        "bot_direction": 1.5707963267948966,
+        "bot_treasures": 0,
+        "bot_remaining_traps": 9,
+        "bot_alive": true,
+        "total_treasures": 5,
+        "treasures_collected": 1,
+        "visible_treasures": [
+          {
+            "x": 4,
+            "y": 7
+          }
+        ],
+        "visible_bots": [],
+        "visible_traps": [],
+        "visible_obstacles": [
+          {
+            "x": 3,
+            "y": 9
+          },
+          {
+            "x": 4,
+            "y": 9
+          },
+          {
+            "x": 0,
+            "y": 5
+          },
+          {
+            "x": 1,
+            "y": 5
+          },
+          {
+            "x": -3,
+            "y": 6
+          },
+          {
+            "x": -3,
+            "y": 9
+          },
+          {
+            "x": -2,
+            "y": 9
+          },
+          {
+            "x": -1,
+            "y": 9
+          }
+        ],
+        "bot_scores": [
+          {
+            "id": "player",
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 0,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 1,
+            "treasures": 1,
+            "alive": false
+          },
+          {
+            "id": 2,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 3,
+            "treasures": 0,
+            "alive": true
+          }
+        ],
+        "time_remaining": 105660,
+        "game_over": false,
+        "explosions_available": false
+      },
+      "action": "move_down",
+      "position": {
+        "x": 29,
+        "y": 7
+      },
+      "direction": 1.5707963267948966,
+      "treasures": 0,
+      "remainingTraps": 9
+    },
+    {
+      "timestamp": 14489,
+      "state": {
+        "bot_id": "player",
+        "bot_position": {
+          "x": 29,
+          "y": 8
+        },
+        "bot_direction": 1.5707963267948966,
+        "bot_treasures": 0,
+        "bot_remaining_traps": 9,
+        "bot_alive": true,
+        "total_treasures": 5,
+        "treasures_collected": 1,
+        "visible_treasures": [],
+        "visible_bots": [],
+        "visible_traps": [],
+        "visible_obstacles": [
+          {
+            "x": 4,
+            "y": 8
+          },
+          {
+            "x": 0,
+            "y": 4
+          },
+          {
+            "x": 1,
+            "y": 4
+          },
+          {
+            "x": -3,
+            "y": 6
+          },
+          {
+            "x": -3,
+            "y": 8
+          },
+          {
+            "x": -2,
+            "y": 8
+          }
+        ],
+        "bot_scores": [
+          {
+            "id": "player",
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 0,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 1,
+            "treasures": 1,
+            "alive": false
+          },
+          {
+            "id": 2,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 3,
+            "treasures": 0,
+            "alive": true
+          }
+        ],
+        "time_remaining": 105511,
+        "game_over": false,
+        "explosions_available": false
+      },
+      "action": "move_down",
+      "position": {
+        "x": 29,
+        "y": 8
+      },
+      "direction": 1.5707963267948966,
+      "treasures": 0,
+      "remainingTraps": 9
+    },
+    {
+      "timestamp": 14757,
+      "state": {
+        "bot_id": "player",
+        "bot_position": {
+          "x": 29,
+          "y": 9
+        },
+        "bot_direction": 1.5707963267948966,
+        "bot_treasures": 0,
+        "bot_remaining_traps": 9,
+        "bot_alive": true,
+        "total_treasures": 5,
+        "treasures_collected": 1,
+        "visible_treasures": [],
+        "visible_bots": [],
+        "visible_traps": [],
+        "visible_obstacles": [
+          {
+            "x": 4,
+            "y": 7
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 3
+          },
+          {
+            "x": -3,
+            "y": 7
+          },
+          {
+            "x": -2,
+            "y": 7
+          }
+        ],
+        "bot_scores": [
+          {
+            "id": "player",
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 0,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 1,
+            "treasures": 1,
+            "alive": false
+          },
+          {
+            "id": 2,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 3,
+            "treasures": 0,
+            "alive": true
+          }
+        ],
+        "time_remaining": 105243,
+        "game_over": false,
+        "explosions_available": false
+      },
+      "action": "move_down",
+      "position": {
+        "x": 29,
+        "y": 9
+      },
+      "direction": 1.5707963267948966,
+      "treasures": 0,
+      "remainingTraps": 9
+    },
+    {
+      "timestamp": 14906,
+      "state": {
+        "bot_id": "player",
+        "bot_position": {
+          "x": 29,
+          "y": 10
+        },
+        "bot_direction": 1.5707963267948966,
+        "bot_treasures": 0,
+        "bot_remaining_traps": 9,
+        "bot_alive": true,
+        "total_treasures": 5,
+        "treasures_collected": 1,
+        "visible_treasures": [],
+        "visible_bots": [],
+        "visible_traps": [],
+        "visible_obstacles": [
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 1,
+            "y": 2
+          },
+          {
+            "x": -3,
+            "y": 6
+          },
+          {
+            "x": -2,
+            "y": 6
+          }
+        ],
+        "bot_scores": [
+          {
+            "id": "player",
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 0,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 1,
+            "treasures": 1,
+            "alive": false
+          },
+          {
+            "id": 2,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 3,
+            "treasures": 0,
+            "alive": true
+          }
+        ],
+        "time_remaining": 105094,
+        "game_over": false,
+        "explosions_available": false
+      },
+      "action": "move_down",
+      "position": {
+        "x": 29,
+        "y": 10
+      },
+      "direction": 1.5707963267948966,
+      "treasures": 0,
+      "remainingTraps": 9
+    },
+    {
+      "timestamp": 15104,
+      "state": {
+        "bot_id": "player",
+        "bot_position": {
+          "x": 30,
+          "y": 10
+        },
+        "bot_direction": 0,
+        "bot_treasures": 0,
+        "bot_remaining_traps": 9,
+        "bot_alive": true,
+        "total_treasures": 5,
+        "treasures_collected": 1,
+        "visible_treasures": [],
+        "visible_bots": [],
+        "visible_traps": [],
+        "visible_obstacles": [
+          {
+            "x": 6,
+            "y": 0
+          },
+          {
+            "x": 6,
+            "y": 1
+          },
+          {
+            "x": 6,
+            "y": 2
+          },
+          {
+            "x": 8,
+            "y": -2
+          },
+          {
+            "x": 8,
+            "y": -1
+          }
+        ],
+        "bot_scores": [
+          {
+            "id": "player",
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 0,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 1,
+            "treasures": 1,
+            "alive": false
+          },
+          {
+            "id": 2,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 3,
+            "treasures": 0,
+            "alive": true
+          }
+        ],
+        "time_remaining": 104896,
+        "game_over": false,
+        "explosions_available": false
+      },
+      "action": "move_right",
+      "position": {
+        "x": 30,
+        "y": 10
+      },
+      "direction": 0,
+      "treasures": 0,
+      "remainingTraps": 9
+    },
+    {
+      "timestamp": 15282,
+      "state": {
+        "bot_id": "player",
+        "bot_position": {
+          "x": 31,
+          "y": 10
+        },
+        "bot_direction": 0,
+        "bot_treasures": 0,
+        "bot_remaining_traps": 9,
+        "bot_alive": true,
+        "total_treasures": 5,
+        "treasures_collected": 1,
+        "visible_treasures": [],
+        "visible_bots": [],
+        "visible_traps": [],
+        "visible_obstacles": [
+          {
+            "x": 5,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 1
+          },
+          {
+            "x": 5,
+            "y": 2
+          },
+          {
+            "x": 7,
+            "y": -2
+          },
+          {
+            "x": 7,
+            "y": -1
+          }
+        ],
+        "bot_scores": [
+          {
+            "id": "player",
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 0,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 1,
+            "treasures": 1,
+            "alive": false
+          },
+          {
+            "id": 2,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 3,
+            "treasures": 0,
+            "alive": true
+          }
+        ],
+        "time_remaining": 104718,
+        "game_over": false,
+        "explosions_available": false
+      },
+      "action": "move_right",
+      "position": {
+        "x": 31,
+        "y": 10
+      },
+      "direction": 0,
+      "treasures": 0,
+      "remainingTraps": 9
+    },
+    {
+      "timestamp": 15449,
+      "state": {
+        "bot_id": "player",
+        "bot_position": {
+          "x": 32,
+          "y": 10
+        },
+        "bot_direction": 0,
+        "bot_treasures": 0,
+        "bot_remaining_traps": 9,
+        "bot_alive": true,
+        "total_treasures": 5,
+        "treasures_collected": 1,
+        "visible_treasures": [],
+        "visible_bots": [],
+        "visible_traps": [],
+        "visible_obstacles": [
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 4,
+            "y": 1
+          },
+          {
+            "x": 4,
+            "y": 2
+          },
+          {
+            "x": 6,
+            "y": -2
+          },
+          {
+            "x": 6,
+            "y": -1
+          }
+        ],
+        "bot_scores": [
+          {
+            "id": "player",
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 0,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 1,
+            "treasures": 1,
+            "alive": false
+          },
+          {
+            "id": 2,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 3,
+            "treasures": 0,
+            "alive": true
+          }
+        ],
+        "time_remaining": 104551,
+        "game_over": false,
+        "explosions_available": false
+      },
+      "action": "move_right",
+      "position": {
+        "x": 32,
+        "y": 10
+      },
+      "direction": 0,
+      "treasures": 0,
+      "remainingTraps": 9
+    },
+    {
+      "timestamp": 15629,
+      "state": {
+        "bot_id": "player",
+        "bot_position": {
+          "x": 32,
+          "y": 11
+        },
+        "bot_direction": 1.5707963267948966,
+        "bot_treasures": 0,
+        "bot_remaining_traps": 9,
+        "bot_alive": true,
+        "total_treasures": 5,
+        "treasures_collected": 1,
+        "visible_treasures": [
+          {
+            "x": 1,
+            "y": 3
+          }
+        ],
+        "visible_bots": [],
+        "visible_traps": [],
+        "visible_obstacles": [
+          {
+            "x": -1,
+            "y": 5
+          },
+          {
+            "x": 0,
+            "y": 5
+          },
+          {
+            "x": 1,
+            "y": 5
+          },
+          {
+            "x": 3,
+            "y": 8
+          }
+        ],
+        "bot_scores": [
+          {
+            "id": "player",
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 0,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 1,
+            "treasures": 1,
+            "alive": false
+          },
+          {
+            "id": 2,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 3,
+            "treasures": 0,
+            "alive": true
+          }
+        ],
+        "time_remaining": 104371,
+        "game_over": false,
+        "explosions_available": false
+      },
+      "action": "move_down",
+      "position": {
+        "x": 32,
+        "y": 11
+      },
+      "direction": 1.5707963267948966,
+      "treasures": 0,
+      "remainingTraps": 9
+    },
+    {
+      "timestamp": 15806,
+      "state": {
+        "bot_id": "player",
+        "bot_position": {
+          "x": 32,
+          "y": 12
+        },
+        "bot_direction": 1.5707963267948966,
+        "bot_treasures": 0,
+        "bot_remaining_traps": 9,
+        "bot_alive": true,
+        "total_treasures": 5,
+        "treasures_collected": 1,
+        "visible_treasures": [
+          {
+            "x": 1,
+            "y": 2
+          }
+        ],
+        "visible_bots": [],
+        "visible_traps": [],
+        "visible_obstacles": [
+          {
+            "x": -1,
+            "y": 4
+          },
+          {
+            "x": 0,
+            "y": 4
+          },
+          {
+            "x": 1,
+            "y": 4
+          },
+          {
+            "x": 3,
+            "y": 7
+          }
+        ],
+        "bot_scores": [
+          {
+            "id": "player",
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 0,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 1,
+            "treasures": 1,
+            "alive": false
+          },
+          {
+            "id": 2,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 3,
+            "treasures": 0,
+            "alive": true
+          }
+        ],
+        "time_remaining": 104194,
+        "game_over": false,
+        "explosions_available": false
+      },
+      "action": "move_down",
+      "position": {
+        "x": 32,
+        "y": 12
+      },
+      "direction": 1.5707963267948966,
+      "treasures": 0,
+      "remainingTraps": 9
+    },
+    {
+      "timestamp": 15957,
+      "state": {
+        "bot_id": "player",
+        "bot_position": {
+          "x": 32,
+          "y": 13
+        },
+        "bot_direction": 1.5707963267948966,
+        "bot_treasures": 0,
+        "bot_remaining_traps": 9,
+        "bot_alive": true,
+        "total_treasures": 5,
+        "treasures_collected": 1,
+        "visible_treasures": [],
+        "visible_bots": [],
+        "visible_traps": [],
+        "visible_obstacles": [
+          {
+            "x": -1,
+            "y": 3
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 3
+          }
+        ],
+        "bot_scores": [
+          {
+            "id": "player",
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 0,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 1,
+            "treasures": 1,
+            "alive": false
+          },
+          {
+            "id": 2,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 3,
+            "treasures": 0,
+            "alive": true
+          }
+        ],
+        "time_remaining": 104043,
+        "game_over": false,
+        "explosions_available": false
+      },
+      "action": "move_down",
+      "position": {
+        "x": 32,
+        "y": 13
+      },
+      "direction": 1.5707963267948966,
+      "treasures": 0,
+      "remainingTraps": 9
+    },
+    {
+      "timestamp": 16078,
+      "state": {
+        "bot_id": "player",
+        "bot_position": {
+          "x": 33,
+          "y": 13
+        },
+        "bot_direction": 0,
+        "bot_treasures": 0,
+        "bot_remaining_traps": 9,
+        "bot_alive": true,
+        "total_treasures": 5,
+        "treasures_collected": 1,
+        "visible_treasures": [],
+        "visible_bots": [],
+        "visible_traps": [],
+        "visible_obstacles": [
+          {
+            "x": 3,
+            "y": -1
+          }
+        ],
+        "bot_scores": [
+          {
+            "id": "player",
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 0,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 1,
+            "treasures": 1,
+            "alive": false
+          },
+          {
+            "id": 2,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 3,
+            "treasures": 0,
+            "alive": true
+          }
+        ],
+        "time_remaining": 103922,
+        "game_over": false,
+        "explosions_available": false
+      },
+      "action": "move_right",
+      "position": {
+        "x": 33,
+        "y": 13
+      },
+      "direction": 0,
+      "treasures": 0,
+      "remainingTraps": 9
+    },
+    {
+      "timestamp": 16272,
+      "state": {
+        "bot_id": "player",
+        "bot_position": {
+          "x": 33,
+          "y": 14
+        },
+        "bot_direction": 1.5707963267948966,
+        "bot_treasures": 0,
+        "bot_remaining_traps": 9,
+        "bot_alive": true,
+        "total_treasures": 5,
+        "treasures_collected": 1,
+        "visible_treasures": [],
+        "visible_bots": [],
+        "visible_traps": [],
+        "visible_obstacles": [
+          {
+            "x": -1,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 2,
+            "y": 5
+          }
+        ],
+        "bot_scores": [
+          {
+            "id": "player",
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 0,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 1,
+            "treasures": 1,
+            "alive": false
+          },
+          {
+            "id": 2,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 3,
+            "treasures": 0,
+            "alive": true
+          }
+        ],
+        "time_remaining": 103728,
+        "game_over": false,
+        "explosions_available": false
+      },
+      "action": "move_down",
+      "position": {
+        "x": 33,
+        "y": 14
+      },
+      "direction": 1.5707963267948966,
+      "treasures": 0,
+      "remainingTraps": 9
+    },
+    {
+      "timestamp": 16678,
+      "state": {
+        "bot_id": "player",
+        "bot_position": {
+          "x": 32,
+          "y": 14
+        },
+        "bot_direction": 3.141592653589793,
+        "bot_treasures": 1,
+        "bot_remaining_traps": 9,
+        "bot_alive": true,
+        "total_treasures": 5,
+        "treasures_collected": 2,
+        "visible_treasures": [],
+        "visible_bots": [],
+        "visible_traps": [],
+        "visible_obstacles": [
+          {
+            "x": -2,
+            "y": -1
+          },
+          {
+            "x": -2,
+            "y": 0
+          },
+          {
+            "x": -4,
+            "y": 2
+          }
+        ],
+        "bot_scores": [
+          {
+            "id": "player",
+            "treasures": 1,
+            "alive": true
+          },
+          {
+            "id": 0,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 1,
+            "treasures": 1,
+            "alive": false
+          },
+          {
+            "id": 2,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 3,
+            "treasures": 0,
+            "alive": true
+          }
+        ],
+        "time_remaining": 103322,
+        "game_over": false,
+        "explosions_available": false
+      },
+      "action": "move_left",
+      "position": {
+        "x": 32,
+        "y": 14
+      },
+      "direction": 3.141592653589793,
+      "treasures": 1,
+      "remainingTraps": 9
+    },
+    {
+      "timestamp": 16846,
+      "state": {
+        "bot_id": "player",
+        "bot_position": {
+          "x": 31,
+          "y": 14
+        },
+        "bot_direction": 3.141592653589793,
+        "bot_treasures": 1,
+        "bot_remaining_traps": 9,
+        "bot_alive": true,
+        "total_treasures": 5,
+        "treasures_collected": 2,
+        "visible_treasures": [],
+        "visible_bots": [],
+        "visible_traps": [],
+        "visible_obstacles": [
+          {
+            "x": -1,
+            "y": 0
+          }
+        ],
+        "bot_scores": [
+          {
+            "id": "player",
+            "treasures": 1,
+            "alive": true
+          },
+          {
+            "id": 0,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 1,
+            "treasures": 1,
+            "alive": false
+          },
+          {
+            "id": 2,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 3,
+            "treasures": 0,
+            "alive": true
+          }
+        ],
+        "time_remaining": 103154,
+        "game_over": false,
+        "explosions_available": false
+      },
+      "action": "move_left",
+      "position": {
+        "x": 31,
+        "y": 14
+      },
+      "direction": 3.141592653589793,
+      "treasures": 1,
+      "remainingTraps": 9
+    },
+    {
+      "timestamp": 17338,
+      "state": {
+        "bot_id": "player",
+        "bot_position": {
+          "x": 31,
+          "y": 15
+        },
+        "bot_direction": 1.5707963267948966,
+        "bot_treasures": 1,
+        "bot_remaining_traps": 9,
+        "bot_alive": true,
+        "total_treasures": 5,
+        "treasures_collected": 2,
+        "visible_treasures": [],
+        "visible_bots": [],
+        "visible_traps": [],
+        "visible_obstacles": [
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": -4,
+            "y": 7
+          }
+        ],
+        "bot_scores": [
+          {
+            "id": "player",
+            "treasures": 1,
+            "alive": true
+          },
+          {
+            "id": 0,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 1,
+            "treasures": 1,
+            "alive": false
+          },
+          {
+            "id": 2,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 3,
+            "treasures": 0,
+            "alive": true
+          }
+        ],
+        "time_remaining": 102662,
+        "game_over": false,
+        "explosions_available": false
+      },
+      "action": "move_down",
+      "position": {
+        "x": 31,
+        "y": 15
+      },
+      "direction": 1.5707963267948966,
+      "treasures": 1,
+      "remainingTraps": 9
+    },
+    {
+      "timestamp": 17972,
+      "state": {
+        "bot_id": "player",
+        "bot_position": {
+          "x": 30,
+          "y": 15
+        },
+        "bot_direction": 3.141592653589793,
+        "bot_treasures": 1,
+        "bot_remaining_traps": 9,
+        "bot_alive": true,
+        "total_treasures": 5,
+        "treasures_collected": 2,
+        "visible_treasures": [
+          {
+            "x": -10,
+            "y": 0
+          }
+        ],
+        "visible_bots": [],
+        "visible_traps": [],
+        "visible_obstacles": [
+          {
+            "x": -4,
+            "y": -2
+          },
+          {
+            "x": -4,
+            "y": -1
+          },
+          {
+            "x": -2,
+            "y": 1
+          }
+        ],
+        "bot_scores": [
+          {
+            "id": "player",
+            "treasures": 1,
+            "alive": true
+          },
+          {
+            "id": 0,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 1,
+            "treasures": 1,
+            "alive": false
+          },
+          {
+            "id": 2,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 3,
+            "treasures": 0,
+            "alive": true
+          }
+        ],
+        "time_remaining": 102028,
+        "game_over": false,
+        "explosions_available": false
+      },
+      "action": "move_left",
+      "position": {
+        "x": 30,
+        "y": 15
+      },
+      "direction": 3.141592653589793,
+      "treasures": 1,
+      "remainingTraps": 9
+    },
+    {
+      "timestamp": 18420,
+      "state": {
+        "bot_id": "player",
+        "bot_position": {
+          "x": 29,
+          "y": 15
+        },
+        "bot_direction": 3.141592653589793,
+        "bot_treasures": 1,
+        "bot_remaining_traps": 9,
+        "bot_alive": true,
+        "total_treasures": 5,
+        "treasures_collected": 2,
+        "visible_treasures": [
+          {
+            "x": -9,
+            "y": 0
+          }
+        ],
+        "visible_bots": [],
+        "visible_traps": [],
+        "visible_obstacles": [
+          {
+            "x": -10,
+            "y": 0
+          },
+          {
+            "x": -3,
+            "y": -1
+          },
+          {
+            "x": -2,
+            "y": 1
+          }
+        ],
+        "bot_scores": [
+          {
+            "id": "player",
+            "treasures": 1,
+            "alive": true
+          },
+          {
+            "id": 0,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 1,
+            "treasures": 1,
+            "alive": false
+          },
+          {
+            "id": 2,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 3,
+            "treasures": 0,
+            "alive": true
+          }
+        ],
+        "time_remaining": 101580,
+        "game_over": false,
+        "explosions_available": false
+      },
+      "action": "move_left",
+      "position": {
+        "x": 29,
+        "y": 15
+      },
+      "direction": 3.141592653589793,
+      "treasures": 1,
+      "remainingTraps": 9
+    },
+    {
+      "timestamp": 18582,
+      "state": {
+        "bot_id": "player",
+        "bot_position": {
+          "x": 28,
+          "y": 15
+        },
+        "bot_direction": 3.141592653589793,
+        "bot_treasures": 1,
+        "bot_remaining_traps": 9,
+        "bot_alive": true,
+        "total_treasures": 5,
+        "treasures_collected": 2,
+        "visible_treasures": [
+          {
+            "x": -8,
+            "y": 0
+          }
+        ],
+        "visible_bots": [],
+        "visible_traps": [],
+        "visible_obstacles": [
+          {
+            "x": -9,
+            "y": 0
+          },
+          {
+            "x": -9,
+            "y": 1
+          },
+          {
+            "x": -2,
+            "y": -1
+          },
+          {
+            "x": -2,
+            "y": 1
+          }
+        ],
+        "bot_scores": [
+          {
+            "id": "player",
+            "treasures": 1,
+            "alive": true
+          },
+          {
+            "id": 0,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 1,
+            "treasures": 1,
+            "alive": false
+          },
+          {
+            "id": 2,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 3,
+            "treasures": 0,
+            "alive": true
+          }
+        ],
+        "time_remaining": 101418,
+        "game_over": false,
+        "explosions_available": false
+      },
+      "action": "move_left",
+      "position": {
+        "x": 28,
+        "y": 15
+      },
+      "direction": 3.141592653589793,
+      "treasures": 1,
+      "remainingTraps": 9
+    },
+    {
+      "timestamp": 19082,
+      "state": {
+        "bot_id": "player",
+        "bot_position": {
+          "x": 27,
+          "y": 15
+        },
+        "bot_direction": 3.141592653589793,
+        "bot_treasures": 1,
+        "bot_remaining_traps": 9,
+        "bot_alive": true,
+        "total_treasures": 5,
+        "treasures_collected": 2,
+        "visible_treasures": [
+          {
+            "x": -7,
+            "y": 0
+          }
+        ],
+        "visible_bots": [],
+        "visible_traps": [],
+        "visible_obstacles": [
+          {
+            "x": -8,
+            "y": 0
+          },
+          {
+            "x": -8,
+            "y": 1
+          },
+          {
+            "x": -2,
+            "y": -1
+          }
+        ],
+        "bot_scores": [
+          {
+            "id": "player",
+            "treasures": 1,
+            "alive": true
+          },
+          {
+            "id": 0,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 1,
+            "treasures": 1,
+            "alive": false
+          },
+          {
+            "id": 2,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 3,
+            "treasures": 0,
+            "alive": true
+          }
+        ],
+        "time_remaining": 100918,
+        "game_over": false,
+        "explosions_available": false
+      },
+      "action": "move_left",
+      "position": {
+        "x": 27,
+        "y": 15
+      },
+      "direction": 3.141592653589793,
+      "treasures": 1,
+      "remainingTraps": 9
+    },
+    {
+      "timestamp": 19166,
+      "state": {
+        "bot_id": "player",
+        "bot_position": {
+          "x": 26,
+          "y": 15
+        },
+        "bot_direction": 3.141592653589793,
+        "bot_treasures": 1,
+        "bot_remaining_traps": 9,
+        "bot_alive": true,
+        "total_treasures": 5,
+        "treasures_collected": 2,
+        "visible_treasures": [
+          {
+            "x": -6,
+            "y": 0
+          }
+        ],
+        "visible_bots": [],
+        "visible_traps": [],
+        "visible_obstacles": [
+          {
+            "x": -7,
+            "y": 0
+          },
+          {
+            "x": -7,
+            "y": 1
+          },
+          {
+            "x": -2,
+            "y": -1
+          }
+        ],
+        "bot_scores": [
+          {
+            "id": "player",
+            "treasures": 1,
+            "alive": true
+          },
+          {
+            "id": 0,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 1,
+            "treasures": 1,
+            "alive": false
+          },
+          {
+            "id": 2,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 3,
+            "treasures": 0,
+            "alive": true
+          }
+        ],
+        "time_remaining": 100834,
+        "game_over": false,
+        "explosions_available": false
+      },
+      "action": "move_left",
+      "position": {
+        "x": 26,
+        "y": 15
+      },
+      "direction": 3.141592653589793,
+      "treasures": 1,
+      "remainingTraps": 9
+    },
+    {
+      "timestamp": 19256,
+      "state": {
+        "bot_id": "player",
+        "bot_position": {
+          "x": 25,
+          "y": 15
+        },
+        "bot_direction": 3.141592653589793,
+        "bot_treasures": 1,
+        "bot_remaining_traps": 9,
+        "bot_alive": true,
+        "total_treasures": 5,
+        "treasures_collected": 2,
+        "visible_treasures": [
+          {
+            "x": -5,
+            "y": 0
+          }
+        ],
+        "visible_bots": [],
+        "visible_traps": [],
+        "visible_obstacles": [
+          {
+            "x": -6,
+            "y": 0
+          },
+          {
+            "x": -6,
+            "y": 1
+          },
+          {
+            "x": -6,
+            "y": -3
+          }
+        ],
+        "bot_scores": [
+          {
+            "id": "player",
+            "treasures": 1,
+            "alive": true
+          },
+          {
+            "id": 0,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 1,
+            "treasures": 1,
+            "alive": false
+          },
+          {
+            "id": 2,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 3,
+            "treasures": 0,
+            "alive": true
+          }
+        ],
+        "time_remaining": 100744,
+        "game_over": false,
+        "explosions_available": false
+      },
+      "action": "move_left",
+      "position": {
+        "x": 25,
+        "y": 15
+      },
+      "direction": 3.141592653589793,
+      "treasures": 1,
+      "remainingTraps": 9
+    },
+    {
+      "timestamp": 19336,
+      "state": {
+        "bot_id": "player",
+        "bot_position": {
+          "x": 24,
+          "y": 15
+        },
+        "bot_direction": 3.141592653589793,
+        "bot_treasures": 1,
+        "bot_remaining_traps": 9,
+        "bot_alive": true,
+        "total_treasures": 5,
+        "treasures_collected": 2,
+        "visible_treasures": [
+          {
+            "x": -4,
+            "y": 0
+          }
+        ],
+        "visible_bots": [],
+        "visible_traps": [],
+        "visible_obstacles": [
+          {
+            "x": -5,
+            "y": 0
+          },
+          {
+            "x": -5,
+            "y": 1
+          },
+          {
+            "x": -9,
+            "y": 3
+          },
+          {
+            "x": -9,
+            "y": 4
+          }
+        ],
+        "bot_scores": [
+          {
+            "id": "player",
+            "treasures": 1,
+            "alive": true
+          },
+          {
+            "id": 0,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 1,
+            "treasures": 1,
+            "alive": false
+          },
+          {
+            "id": 2,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 3,
+            "treasures": 0,
+            "alive": true
+          }
+        ],
+        "time_remaining": 100664,
+        "game_over": false,
+        "explosions_available": false
+      },
+      "action": "move_left",
+      "position": {
+        "x": 24,
+        "y": 15
+      },
+      "direction": 3.141592653589793,
+      "treasures": 1,
+      "remainingTraps": 9
+    },
+    {
+      "timestamp": 19418,
+      "state": {
+        "bot_id": "player",
+        "bot_position": {
+          "x": 23,
+          "y": 15
+        },
+        "bot_direction": 3.141592653589793,
+        "bot_treasures": 1,
+        "bot_remaining_traps": 9,
+        "bot_alive": true,
+        "total_treasures": 5,
+        "treasures_collected": 2,
+        "visible_treasures": [
+          {
+            "x": -3,
+            "y": 0
+          }
+        ],
+        "visible_bots": [],
+        "visible_traps": [],
+        "visible_obstacles": [
+          {
+            "x": -4,
+            "y": 0
+          },
+          {
+            "x": -4,
+            "y": 1
+          },
+          {
+            "x": -8,
+            "y": 4
+          }
+        ],
+        "bot_scores": [
+          {
+            "id": "player",
+            "treasures": 1,
+            "alive": true
+          },
+          {
+            "id": 0,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 1,
+            "treasures": 1,
+            "alive": false
+          },
+          {
+            "id": 2,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 3,
+            "treasures": 0,
+            "alive": true
+          }
+        ],
+        "time_remaining": 100582,
+        "game_over": false,
+        "explosions_available": false
+      },
+      "action": "move_left",
+      "position": {
+        "x": 23,
+        "y": 15
+      },
+      "direction": 3.141592653589793,
+      "treasures": 1,
+      "remainingTraps": 9
+    },
+    {
+      "timestamp": 19504,
+      "state": {
+        "bot_id": "player",
+        "bot_position": {
+          "x": 22,
+          "y": 15
+        },
+        "bot_direction": 3.141592653589793,
+        "bot_treasures": 1,
+        "bot_remaining_traps": 9,
+        "bot_alive": true,
+        "total_treasures": 5,
+        "treasures_collected": 2,
+        "visible_treasures": [
+          {
+            "x": -2,
+            "y": 0
+          }
+        ],
+        "visible_bots": [],
+        "visible_traps": [],
+        "visible_obstacles": [
+          {
+            "x": -3,
+            "y": 0
+          },
+          {
+            "x": -3,
+            "y": 1
+          },
+          {
+            "x": -7,
+            "y": 4
+          }
+        ],
+        "bot_scores": [
+          {
+            "id": "player",
+            "treasures": 1,
+            "alive": true
+          },
+          {
+            "id": 0,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 1,
+            "treasures": 1,
+            "alive": false
+          },
+          {
+            "id": 2,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 3,
+            "treasures": 0,
+            "alive": true
+          }
+        ],
+        "time_remaining": 100496,
+        "game_over": false,
+        "explosions_available": false
+      },
+      "action": "move_left",
+      "position": {
+        "x": 22,
+        "y": 15
+      },
+      "direction": 3.141592653589793,
+      "treasures": 1,
+      "remainingTraps": 9
+    },
+    {
+      "timestamp": 19585,
+      "state": {
+        "bot_id": "player",
+        "bot_position": {
+          "x": 21,
+          "y": 15
+        },
+        "bot_direction": 3.141592653589793,
+        "bot_treasures": 1,
+        "bot_remaining_traps": 9,
+        "bot_alive": true,
+        "total_treasures": 5,
+        "treasures_collected": 2,
+        "visible_treasures": [
+          {
+            "x": -1,
+            "y": 0
+          }
+        ],
+        "visible_bots": [],
+        "visible_traps": [],
+        "visible_obstacles": [
+          {
+            "x": -2,
+            "y": 0
+          },
+          {
+            "x": -2,
+            "y": 1
+          }
+        ],
+        "bot_scores": [
+          {
+            "id": "player",
+            "treasures": 1,
+            "alive": true
+          },
+          {
+            "id": 0,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 1,
+            "treasures": 1,
+            "alive": false
+          },
+          {
+            "id": 2,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 3,
+            "treasures": 0,
+            "alive": true
+          }
+        ],
+        "time_remaining": 100415,
+        "game_over": false,
+        "explosions_available": false
+      },
+      "action": "move_left",
+      "position": {
+        "x": 21,
+        "y": 15
+      },
+      "direction": 3.141592653589793,
+      "treasures": 1,
+      "remainingTraps": 9
+    },
+    {
+      "timestamp": 19673,
+      "state": {
+        "bot_id": "player",
+        "bot_position": {
+          "x": 20,
+          "y": 15
+        },
+        "bot_direction": 3.141592653589793,
+        "bot_treasures": 1,
+        "bot_remaining_traps": 9,
+        "bot_alive": true,
+        "total_treasures": 5,
+        "treasures_collected": 2,
+        "visible_treasures": [],
+        "visible_bots": [],
+        "visible_traps": [],
+        "visible_obstacles": [
+          {
+            "x": -1,
+            "y": 0
+          }
+        ],
+        "bot_scores": [
+          {
+            "id": "player",
+            "treasures": 1,
+            "alive": true
+          },
+          {
+            "id": 0,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 1,
+            "treasures": 1,
+            "alive": false
+          },
+          {
+            "id": 2,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 3,
+            "treasures": 0,
+            "alive": true
+          }
+        ],
+        "time_remaining": 100327,
+        "game_over": false,
+        "explosions_available": false
+      },
+      "action": "move_left",
+      "position": {
+        "x": 20,
+        "y": 15
+      },
+      "direction": 3.141592653589793,
+      "treasures": 1,
+      "remainingTraps": 9
+    },
+    {
+      "timestamp": 19919,
+      "state": {
+        "bot_id": "player",
+        "bot_position": {
+          "x": 20,
+          "y": 16
+        },
+        "bot_direction": 1.5707963267948966,
+        "bot_treasures": 2,
+        "bot_remaining_traps": 9,
+        "bot_alive": true,
+        "total_treasures": 5,
+        "treasures_collected": 3,
+        "visible_treasures": [],
+        "visible_bots": [],
+        "visible_traps": [],
+        "visible_obstacles": [
+          {
+            "x": 2,
+            "y": 9
+          },
+          {
+            "x": 3,
+            "y": 9
+          },
+          {
+            "x": -2,
+            "y": 5
+          },
+          {
+            "x": -1,
+            "y": 5
+          },
+          {
+            "x": 3,
+            "y": 6
+          }
+        ],
+        "bot_scores": [
+          {
+            "id": "player",
+            "treasures": 2,
+            "alive": true
+          },
+          {
+            "id": 0,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 1,
+            "treasures": 1,
+            "alive": false
+          },
+          {
+            "id": 2,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 3,
+            "treasures": 0,
+            "alive": true
+          }
+        ],
+        "time_remaining": 100081,
+        "game_over": false,
+        "explosions_available": false
+      },
+      "action": "move_down",
+      "position": {
+        "x": 20,
+        "y": 16
+      },
+      "direction": 1.5707963267948966,
+      "treasures": 2,
+      "remainingTraps": 9
+    },
+    {
+      "timestamp": 20113,
+      "state": {
+        "bot_id": "player",
+        "bot_position": {
+          "x": 20,
+          "y": 17
+        },
+        "bot_direction": 1.5707963267948966,
+        "bot_treasures": 2,
+        "bot_remaining_traps": 9,
+        "bot_alive": true,
+        "total_treasures": 5,
+        "treasures_collected": 3,
+        "visible_treasures": [],
+        "visible_bots": [],
+        "visible_traps": [],
+        "visible_obstacles": [
+          {
+            "x": 2,
+            "y": 8
+          },
+          {
+            "x": 3,
+            "y": 8
+          },
+          {
+            "x": -2,
+            "y": 4
+          },
+          {
+            "x": -1,
+            "y": 4
+          }
+        ],
+        "bot_scores": [
+          {
+            "id": "player",
+            "treasures": 2,
+            "alive": true
+          },
+          {
+            "id": 0,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 1,
+            "treasures": 1,
+            "alive": false
+          },
+          {
+            "id": 2,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 3,
+            "treasures": 0,
+            "alive": true
+          }
+        ],
+        "time_remaining": 99887,
+        "game_over": false,
+        "explosions_available": false
+      },
+      "action": "move_down",
+      "position": {
+        "x": 20,
+        "y": 17
+      },
+      "direction": 1.5707963267948966,
+      "treasures": 2,
+      "remainingTraps": 9
+    },
+    {
+      "timestamp": 20653,
+      "state": {
+        "bot_id": "player",
+        "bot_position": {
+          "x": 20,
+          "y": 18
+        },
+        "bot_direction": 1.5707963267948966,
+        "bot_treasures": 2,
+        "bot_remaining_traps": 9,
+        "bot_alive": true,
+        "total_treasures": 5,
+        "treasures_collected": 3,
+        "visible_treasures": [],
+        "visible_bots": [],
+        "visible_traps": [],
+        "visible_obstacles": [
+          {
+            "x": 2,
+            "y": 7
+          },
+          {
+            "x": 3,
+            "y": 7
+          },
+          {
+            "x": -1,
+            "y": 3
+          }
+        ],
+        "bot_scores": [
+          {
+            "id": "player",
+            "treasures": 2,
+            "alive": true
+          },
+          {
+            "id": 0,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 1,
+            "treasures": 1,
+            "alive": false
+          },
+          {
+            "id": 2,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 3,
+            "treasures": 0,
+            "alive": true
+          }
+        ],
+        "time_remaining": 99347,
+        "game_over": false,
+        "explosions_available": false
+      },
+      "action": "move_down",
+      "position": {
+        "x": 20,
+        "y": 18
+      },
+      "direction": 1.5707963267948966,
+      "treasures": 2,
+      "remainingTraps": 9
+    },
+    {
+      "timestamp": 21156,
+      "state": {
+        "bot_id": "player",
+        "bot_position": {
+          "x": 20,
+          "y": 19
+        },
+        "bot_direction": 1.5707963267948966,
+        "bot_treasures": 2,
+        "bot_remaining_traps": 9,
+        "bot_alive": true,
+        "total_treasures": 5,
+        "treasures_collected": 3,
+        "visible_treasures": [
+          {
+            "x": 1,
+            "y": 9
+          }
+        ],
+        "visible_bots": [],
+        "visible_traps": [],
+        "visible_obstacles": [
+          {
+            "x": 2,
+            "y": 6
+          },
+          {
+            "x": 3,
+            "y": 6
+          },
+          {
+            "x": -1,
+            "y": 2
+          }
+        ],
+        "bot_scores": [
+          {
+            "id": "player",
+            "treasures": 2,
+            "alive": true
+          },
+          {
+            "id": 0,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 1,
+            "treasures": 1,
+            "alive": false
+          },
+          {
+            "id": 2,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 3,
+            "treasures": 0,
+            "alive": true
+          }
+        ],
+        "time_remaining": 98844,
+        "game_over": false,
+        "explosions_available": false
+      },
+      "action": "move_down",
+      "position": {
+        "x": 20,
+        "y": 19
+      },
+      "direction": 1.5707963267948966,
+      "treasures": 2,
+      "remainingTraps": 9
+    },
+    {
+      "timestamp": 21240,
+      "state": {
+        "bot_id": "player",
+        "bot_position": {
+          "x": 20,
+          "y": 20
+        },
+        "bot_direction": 1.5707963267948966,
+        "bot_treasures": 2,
+        "bot_remaining_traps": 9,
+        "bot_alive": true,
+        "total_treasures": 5,
+        "treasures_collected": 3,
+        "visible_treasures": [
+          {
+            "x": 1,
+            "y": 8
+          }
+        ],
+        "visible_bots": [],
+        "visible_traps": [],
+        "visible_obstacles": [
+          {
+            "x": 2,
+            "y": 5
+          }
+        ],
+        "bot_scores": [
+          {
+            "id": "player",
+            "treasures": 2,
+            "alive": true
+          },
+          {
+            "id": 0,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 1,
+            "treasures": 1,
+            "alive": false
+          },
+          {
+            "id": 2,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 3,
+            "treasures": 0,
+            "alive": true
+          }
+        ],
+        "time_remaining": 98760,
+        "game_over": false,
+        "explosions_available": false
+      },
+      "action": "move_down",
+      "position": {
+        "x": 20,
+        "y": 20
+      },
+      "direction": 1.5707963267948966,
+      "treasures": 2,
+      "remainingTraps": 9
+    },
+    {
+      "timestamp": 21321,
+      "state": {
+        "bot_id": "player",
+        "bot_position": {
+          "x": 20,
+          "y": 21
+        },
+        "bot_direction": 1.5707963267948966,
+        "bot_treasures": 2,
+        "bot_remaining_traps": 9,
+        "bot_alive": true,
+        "total_treasures": 5,
+        "treasures_collected": 3,
+        "visible_treasures": [
+          {
+            "x": 1,
+            "y": 7
+          }
+        ],
+        "visible_bots": [],
+        "visible_traps": [],
+        "visible_obstacles": [
+          {
+            "x": 2,
+            "y": 4
+          }
+        ],
+        "bot_scores": [
+          {
+            "id": "player",
+            "treasures": 2,
+            "alive": true
+          },
+          {
+            "id": 0,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 1,
+            "treasures": 1,
+            "alive": false
+          },
+          {
+            "id": 2,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 3,
+            "treasures": 0,
+            "alive": true
+          }
+        ],
+        "time_remaining": 98679,
+        "game_over": false,
+        "explosions_available": false
+      },
+      "action": "move_down",
+      "position": {
+        "x": 20,
+        "y": 21
+      },
+      "direction": 1.5707963267948966,
+      "treasures": 2,
+      "remainingTraps": 9
+    },
+    {
+      "timestamp": 21645,
+      "state": {
+        "bot_id": "player",
+        "bot_position": {
+          "x": 20,
+          "y": 22
+        },
+        "bot_direction": 1.5707963267948966,
+        "bot_treasures": 2,
+        "bot_remaining_traps": 9,
+        "bot_alive": true,
+        "total_treasures": 5,
+        "treasures_collected": 3,
+        "visible_treasures": [
+          {
+            "x": 1,
+            "y": 6
+          }
+        ],
+        "visible_bots": [],
+        "visible_traps": [],
+        "visible_obstacles": [
+          {
+            "x": 2,
+            "y": 4
+          }
+        ],
+        "bot_scores": [
+          {
+            "id": "player",
+            "treasures": 2,
+            "alive": true
+          },
+          {
+            "id": 0,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 1,
+            "treasures": 1,
+            "alive": false
+          },
+          {
+            "id": 2,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 3,
+            "treasures": 0,
+            "alive": true
+          }
+        ],
+        "time_remaining": 98355,
+        "game_over": false,
+        "explosions_available": false
+      },
+      "action": "move_down",
+      "position": {
+        "x": 20,
+        "y": 22
+      },
+      "direction": 1.5707963267948966,
+      "treasures": 2,
+      "remainingTraps": 9
+    },
+    {
+      "timestamp": 21764,
+      "state": {
+        "bot_id": "player",
+        "bot_position": {
+          "x": 20,
+          "y": 23
+        },
+        "bot_direction": 1.5707963267948966,
+        "bot_treasures": 2,
+        "bot_remaining_traps": 9,
+        "bot_alive": true,
+        "total_treasures": 5,
+        "treasures_collected": 3,
+        "visible_treasures": [
+          {
+            "x": 1,
+            "y": 5
+          }
+        ],
+        "visible_bots": [],
+        "visible_traps": [],
+        "visible_obstacles": [
+          {
+            "x": 2,
+            "y": 4
+          }
+        ],
+        "bot_scores": [
+          {
+            "id": "player",
+            "treasures": 2,
+            "alive": true
+          },
+          {
+            "id": 0,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 1,
+            "treasures": 1,
+            "alive": false
+          },
+          {
+            "id": 2,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 3,
+            "treasures": 0,
+            "alive": true
+          }
+        ],
+        "time_remaining": 98236,
+        "game_over": false,
+        "explosions_available": false
+      },
+      "action": "move_down",
+      "position": {
+        "x": 20,
+        "y": 23
+      },
+      "direction": 1.5707963267948966,
+      "treasures": 2,
+      "remainingTraps": 9
+    },
+    {
+      "timestamp": 22005,
+      "state": {
+        "bot_id": "player",
+        "bot_position": {
+          "x": 21,
+          "y": 23
+        },
+        "bot_direction": 0,
+        "bot_treasures": 2,
+        "bot_remaining_traps": 9,
+        "bot_alive": true,
+        "total_treasures": 5,
+        "treasures_collected": 3,
+        "visible_treasures": [],
+        "visible_bots": [],
+        "visible_traps": [],
+        "visible_obstacles": [
+          {
+            "x": 5,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": -1
+          }
+        ],
+        "bot_scores": [
+          {
+            "id": "player",
+            "treasures": 2,
+            "alive": true
+          },
+          {
+            "id": 0,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 1,
+            "treasures": 1,
+            "alive": false
+          },
+          {
+            "id": 2,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 3,
+            "treasures": 0,
+            "alive": true
+          }
+        ],
+        "time_remaining": 97995,
+        "game_over": false,
+        "explosions_available": false
+      },
+      "action": "move_right",
+      "position": {
+        "x": 21,
+        "y": 23
+      },
+      "direction": 0,
+      "treasures": 2,
+      "remainingTraps": 9
+    },
+    {
+      "timestamp": 22232,
+      "state": {
+        "bot_id": "player",
+        "bot_position": {
+          "x": 21,
+          "y": 24
+        },
+        "bot_direction": 1.5707963267948966,
+        "bot_treasures": 2,
+        "bot_remaining_traps": 9,
+        "bot_alive": true,
+        "total_treasures": 5,
+        "treasures_collected": 3,
+        "visible_treasures": [
+          {
+            "x": 0,
+            "y": 4
+          }
+        ],
+        "visible_bots": [],
+        "visible_traps": [],
+        "visible_obstacles": [
+          {
+            "x": 1,
+            "y": 2
+          }
+        ],
+        "bot_scores": [
+          {
+            "id": "player",
+            "treasures": 2,
+            "alive": true
+          },
+          {
+            "id": 0,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 1,
+            "treasures": 1,
+            "alive": false
+          },
+          {
+            "id": 2,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 3,
+            "treasures": 0,
+            "alive": true
+          }
+        ],
+        "time_remaining": 97768,
+        "game_over": false,
+        "explosions_available": false
+      },
+      "action": "move_down",
+      "position": {
+        "x": 21,
+        "y": 24
+      },
+      "direction": 1.5707963267948966,
+      "treasures": 2,
+      "remainingTraps": 9
+    },
+    {
+      "timestamp": 22422,
+      "state": {
+        "bot_id": "player",
+        "bot_position": {
+          "x": 21,
+          "y": 25
+        },
+        "bot_direction": 1.5707963267948966,
+        "bot_treasures": 2,
+        "bot_remaining_traps": 9,
+        "bot_alive": true,
+        "total_treasures": 5,
+        "treasures_collected": 3,
+        "visible_treasures": [
+          {
+            "x": 0,
+            "y": 3
+          }
+        ],
+        "visible_bots": [],
+        "visible_traps": [],
+        "visible_obstacles": [
+          {
+            "x": 1,
+            "y": 2
+          }
+        ],
+        "bot_scores": [
+          {
+            "id": "player",
+            "treasures": 2,
+            "alive": true
+          },
+          {
+            "id": 0,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 1,
+            "treasures": 1,
+            "alive": false
+          },
+          {
+            "id": 2,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 3,
+            "treasures": 0,
+            "alive": true
+          }
+        ],
+        "time_remaining": 97578,
+        "game_over": false,
+        "explosions_available": false
+      },
+      "action": "move_down",
+      "position": {
+        "x": 21,
+        "y": 25
+      },
+      "direction": 1.5707963267948966,
+      "treasures": 2,
+      "remainingTraps": 9
+    },
+    {
+      "timestamp": 22572,
+      "state": {
+        "bot_id": "player",
+        "bot_position": {
+          "x": 21,
+          "y": 26
+        },
+        "bot_direction": 1.5707963267948966,
+        "bot_treasures": 2,
+        "bot_remaining_traps": 9,
+        "bot_alive": true,
+        "total_treasures": 5,
+        "treasures_collected": 3,
+        "visible_treasures": [
+          {
+            "x": 0,
+            "y": 2
+          }
+        ],
+        "visible_bots": [],
+        "visible_traps": [],
+        "visible_obstacles": [
+          {
+            "x": 3,
+            "y": 6
+          }
+        ],
+        "bot_scores": [
+          {
+            "id": "player",
+            "treasures": 2,
+            "alive": true
+          },
+          {
+            "id": 0,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 1,
+            "treasures": 1,
+            "alive": false
+          },
+          {
+            "id": 2,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 3,
+            "treasures": 0,
+            "alive": true
+          }
+        ],
+        "time_remaining": 97428,
+        "game_over": false,
+        "explosions_available": false
+      },
+      "action": "move_down",
+      "position": {
+        "x": 21,
+        "y": 26
+      },
+      "direction": 1.5707963267948966,
+      "treasures": 2,
+      "remainingTraps": 9
+    },
+    {
+      "timestamp": 22730,
+      "state": {
+        "bot_id": "player",
+        "bot_position": {
+          "x": 21,
+          "y": 27
+        },
+        "bot_direction": 1.5707963267948966,
+        "bot_treasures": 2,
+        "bot_remaining_traps": 9,
+        "bot_alive": true,
+        "total_treasures": 5,
+        "treasures_collected": 3,
+        "visible_treasures": [
+          {
+            "x": 0,
+            "y": 1
+          }
+        ],
+        "visible_bots": [],
+        "visible_traps": [],
+        "visible_obstacles": [
+          {
+            "x": 3,
+            "y": 9
+          },
+          {
+            "x": 4,
+            "y": 9
+          }
+        ],
+        "bot_scores": [
+          {
+            "id": "player",
+            "treasures": 2,
+            "alive": true
+          },
+          {
+            "id": 0,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 1,
+            "treasures": 1,
+            "alive": false
+          },
+          {
+            "id": 2,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 3,
+            "treasures": 0,
+            "alive": true
+          }
+        ],
+        "time_remaining": 97270,
+        "game_over": false,
+        "explosions_available": false
+      },
+      "action": "move_down",
+      "position": {
+        "x": 21,
+        "y": 27
+      },
+      "direction": 1.5707963267948966,
+      "treasures": 2,
+      "remainingTraps": 9
+    },
+    {
+      "timestamp": 22872,
+      "state": {
+        "bot_id": "player",
+        "bot_position": {
+          "x": 21,
+          "y": 28
+        },
+        "bot_direction": 1.5707963267948966,
+        "bot_treasures": 2,
+        "bot_remaining_traps": 9,
+        "bot_alive": true,
+        "total_treasures": 5,
+        "treasures_collected": 3,
+        "visible_treasures": [],
+        "visible_bots": [],
+        "visible_traps": [],
+        "visible_obstacles": [
+          {
+            "x": 3,
+            "y": 8
+          },
+          {
+            "x": 4,
+            "y": 8
+          }
+        ],
+        "bot_scores": [
+          {
+            "id": "player",
+            "treasures": 2,
+            "alive": true
+          },
+          {
+            "id": 0,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 1,
+            "treasures": 1,
+            "alive": false
+          },
+          {
+            "id": 2,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 3,
+            "treasures": 0,
+            "alive": true
+          }
+        ],
+        "time_remaining": 97128,
+        "game_over": false,
+        "explosions_available": false
+      },
+      "action": "move_down",
+      "position": {
+        "x": 21,
+        "y": 28
+      },
+      "direction": 1.5707963267948966,
+      "treasures": 2,
+      "remainingTraps": 9
+    },
+    {
+      "timestamp": 23024,
+      "state": {
+        "bot_id": "player",
+        "bot_position": {
+          "x": 21,
+          "y": 29
+        },
+        "bot_direction": 1.5707963267948966,
+        "bot_treasures": 3,
+        "bot_remaining_traps": 9,
+        "bot_alive": true,
+        "total_treasures": 5,
+        "treasures_collected": 4,
+        "visible_treasures": [],
+        "visible_bots": [],
+        "visible_traps": [],
+        "visible_obstacles": [
+          {
+            "x": 3,
+            "y": 7
+          },
+          {
+            "x": 4,
+            "y": 7
+          }
+        ],
+        "bot_scores": [
+          {
+            "id": "player",
+            "treasures": 3,
+            "alive": true
+          },
+          {
+            "id": 0,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 1,
+            "treasures": 1,
+            "alive": false
+          },
+          {
+            "id": 2,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 3,
+            "treasures": 0,
+            "alive": true
+          }
+        ],
+        "time_remaining": 96976,
+        "game_over": false,
+        "explosions_available": false
+      },
+      "action": "move_down",
+      "position": {
+        "x": 21,
+        "y": 29
+      },
+      "direction": 1.5707963267948966,
+      "treasures": 3,
+      "remainingTraps": 9
+    },
+    {
+      "timestamp": 23247,
+      "state": {
+        "bot_id": "player",
+        "bot_position": {
+          "x": 22,
+          "y": 29
+        },
+        "bot_direction": 0,
+        "bot_treasures": 3,
+        "bot_remaining_traps": 9,
+        "bot_alive": true,
+        "total_treasures": 5,
+        "treasures_collected": 4,
+        "visible_treasures": [],
+        "visible_bots": [],
+        "visible_traps": [],
+        "visible_obstacles": [
+          {
+            "x": 8,
+            "y": 3
+          },
+          {
+            "x": 8,
+            "y": 4
+          },
+          {
+            "x": 7,
+            "y": 0
+          }
+        ],
+        "bot_scores": [
+          {
+            "id": "player",
+            "treasures": 3,
+            "alive": true
+          },
+          {
+            "id": 0,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 1,
+            "treasures": 1,
+            "alive": false
+          },
+          {
+            "id": 2,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 3,
+            "treasures": 0,
+            "alive": true
+          }
+        ],
+        "time_remaining": 96753,
+        "game_over": false,
+        "explosions_available": false
+      },
+      "action": "move_right",
+      "position": {
+        "x": 22,
+        "y": 29
+      },
+      "direction": 0,
+      "treasures": 3,
+      "remainingTraps": 9
+    },
+    {
+      "timestamp": 23457,
+      "state": {
+        "bot_id": "player",
+        "bot_position": {
+          "x": 23,
+          "y": 29
+        },
+        "bot_direction": 0,
+        "bot_treasures": 3,
+        "bot_remaining_traps": 9,
+        "bot_alive": true,
+        "total_treasures": 5,
+        "treasures_collected": 4,
+        "visible_treasures": [],
+        "visible_bots": [],
+        "visible_traps": [],
+        "visible_obstacles": [
+          {
+            "x": 7,
+            "y": 3
+          },
+          {
+            "x": 7,
+            "y": 4
+          },
+          {
+            "x": 6,
+            "y": 0
+          }
+        ],
+        "bot_scores": [
+          {
+            "id": "player",
+            "treasures": 3,
+            "alive": true
+          },
+          {
+            "id": 0,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 1,
+            "treasures": 1,
+            "alive": false
+          },
+          {
+            "id": 2,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 3,
+            "treasures": 0,
+            "alive": true
+          }
+        ],
+        "time_remaining": 96543,
+        "game_over": false,
+        "explosions_available": false
+      },
+      "action": "move_right",
+      "position": {
+        "x": 23,
+        "y": 29
+      },
+      "direction": 0,
+      "treasures": 3,
+      "remainingTraps": 9
+    },
+    {
+      "timestamp": 23673,
+      "state": {
+        "bot_id": "player",
+        "bot_position": {
+          "x": 24,
+          "y": 29
+        },
+        "bot_direction": 0,
+        "bot_treasures": 3,
+        "bot_remaining_traps": 9,
+        "bot_alive": true,
+        "total_treasures": 5,
+        "treasures_collected": 4,
+        "visible_treasures": [],
+        "visible_bots": [],
+        "visible_traps": [],
+        "visible_obstacles": [
+          {
+            "x": 6,
+            "y": 3
+          },
+          {
+            "x": 5,
+            "y": 0
+          }
+        ],
+        "bot_scores": [
+          {
+            "id": "player",
+            "treasures": 3,
+            "alive": true
+          },
+          {
+            "id": 0,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 1,
+            "treasures": 1,
+            "alive": false
+          },
+          {
+            "id": 2,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 3,
+            "treasures": 0,
+            "alive": true
+          }
+        ],
+        "time_remaining": 96327,
+        "game_over": false,
+        "explosions_available": false
+      },
+      "action": "move_right",
+      "position": {
+        "x": 24,
+        "y": 29
+      },
+      "direction": 0,
+      "treasures": 3,
+      "remainingTraps": 9
+    },
+    {
+      "timestamp": 23921,
+      "state": {
+        "bot_id": "player",
+        "bot_position": {
+          "x": 25,
+          "y": 29
+        },
+        "bot_direction": 0,
+        "bot_treasures": 3,
+        "bot_remaining_traps": 9,
+        "bot_alive": true,
+        "total_treasures": 5,
+        "treasures_collected": 4,
+        "visible_treasures": [],
+        "visible_bots": [],
+        "visible_traps": [],
+        "visible_obstacles": [
+          {
+            "x": 4,
+            "y": 0
+          }
+        ],
+        "bot_scores": [
+          {
+            "id": "player",
+            "treasures": 3,
+            "alive": true
+          },
+          {
+            "id": 0,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 1,
+            "treasures": 1,
+            "alive": false
+          },
+          {
+            "id": 2,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 3,
+            "treasures": 0,
+            "alive": true
+          }
+        ],
+        "time_remaining": 96079,
+        "game_over": false,
+        "explosions_available": false
+      },
+      "action": "move_right",
+      "position": {
+        "x": 25,
+        "y": 29
+      },
+      "direction": 0,
+      "treasures": 3,
+      "remainingTraps": 9
+    },
+    {
+      "timestamp": 24115,
+      "state": {
+        "bot_id": "player",
+        "bot_position": {
+          "x": 26,
+          "y": 29
+        },
+        "bot_direction": 0,
+        "bot_treasures": 3,
+        "bot_remaining_traps": 9,
+        "bot_alive": true,
+        "total_treasures": 5,
+        "treasures_collected": 4,
+        "visible_treasures": [],
+        "visible_bots": [],
+        "visible_traps": [],
+        "visible_obstacles": [
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": -4
+          }
+        ],
+        "bot_scores": [
+          {
+            "id": "player",
+            "treasures": 3,
+            "alive": true
+          },
+          {
+            "id": 0,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 1,
+            "treasures": 1,
+            "alive": false
+          },
+          {
+            "id": 2,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 3,
+            "treasures": 0,
+            "alive": true
+          }
+        ],
+        "time_remaining": 95885,
+        "game_over": false,
+        "explosions_available": false
+      },
+      "action": "move_right",
+      "position": {
+        "x": 26,
+        "y": 29
+      },
+      "direction": 0,
+      "treasures": 3,
+      "remainingTraps": 9
+    },
+    {
+      "timestamp": 24433,
+      "state": {
+        "bot_id": "player",
+        "bot_position": {
+          "x": 26,
+          "y": 28
+        },
+        "bot_direction": 4.71238898038469,
+        "bot_treasures": 3,
+        "bot_remaining_traps": 9,
+        "bot_alive": true,
+        "total_treasures": 5,
+        "treasures_collected": 4,
+        "visible_treasures": [],
+        "visible_bots": [],
+        "visible_traps": [],
+        "visible_obstacles": [
+          {
+            "x": -2,
+            "y": -6
+          },
+          {
+            "x": -1,
+            "y": -6
+          },
+          {
+            "x": -3,
+            "y": -3
+          },
+          {
+            "x": -3,
+            "y": -2
+          },
+          {
+            "x": -3,
+            "y": -1
+          },
+          {
+            "x": 0,
+            "y": -5
+          },
+          {
+            "x": 1,
+            "y": -5
+          },
+          {
+            "x": 2,
+            "y": -5
+          },
+          {
+            "x": -3,
+            "y": -6
+          },
+          {
+            "x": -2,
+            "y": -6
+          }
+        ],
+        "bot_scores": [
+          {
+            "id": "player",
+            "treasures": 3,
+            "alive": true
+          },
+          {
+            "id": 0,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 1,
+            "treasures": 1,
+            "alive": false
+          },
+          {
+            "id": 2,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 3,
+            "treasures": 0,
+            "alive": true
+          }
+        ],
+        "time_remaining": 95567,
+        "game_over": false,
+        "explosions_available": false
+      },
+      "action": "move_up",
+      "position": {
+        "x": 26,
+        "y": 28
+      },
+      "direction": 4.71238898038469,
+      "treasures": 3,
+      "remainingTraps": 9
+    },
+    {
+      "timestamp": 24597,
+      "state": {
+        "bot_id": "player",
+        "bot_position": {
+          "x": 26,
+          "y": 27
+        },
+        "bot_direction": 4.71238898038469,
+        "bot_treasures": 3,
+        "bot_remaining_traps": 9,
+        "bot_alive": true,
+        "total_treasures": 5,
+        "treasures_collected": 4,
+        "visible_treasures": [],
+        "visible_bots": [],
+        "visible_traps": [],
+        "visible_obstacles": [
+          {
+            "x": -2,
+            "y": -5
+          },
+          {
+            "x": -1,
+            "y": -5
+          },
+          {
+            "x": -3,
+            "y": -2
+          },
+          {
+            "x": -3,
+            "y": -1
+          },
+          {
+            "x": -7,
+            "y": -6
+          },
+          {
+            "x": 0,
+            "y": -4
+          },
+          {
+            "x": 1,
+            "y": -4
+          },
+          {
+            "x": 2,
+            "y": -4
+          },
+          {
+            "x": -3,
+            "y": -5
+          },
+          {
+            "x": -2,
+            "y": -5
+          }
+        ],
+        "bot_scores": [
+          {
+            "id": "player",
+            "treasures": 3,
+            "alive": true
+          },
+          {
+            "id": 0,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 1,
+            "treasures": 1,
+            "alive": false
+          },
+          {
+            "id": 2,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 3,
+            "treasures": 0,
+            "alive": true
+          }
+        ],
+        "time_remaining": 95403,
+        "game_over": false,
+        "explosions_available": false
+      },
+      "action": "move_up",
+      "position": {
+        "x": 26,
+        "y": 27
+      },
+      "direction": 4.71238898038469,
+      "treasures": 3,
+      "remainingTraps": 9
+    },
+    {
+      "timestamp": 24839,
+      "state": {
+        "bot_id": "player",
+        "bot_position": {
+          "x": 26,
+          "y": 26
+        },
+        "bot_direction": 4.71238898038469,
+        "bot_treasures": 3,
+        "bot_remaining_traps": 9,
+        "bot_alive": true,
+        "total_treasures": 5,
+        "treasures_collected": 4,
+        "visible_treasures": [],
+        "visible_bots": [],
+        "visible_traps": [],
+        "visible_obstacles": [
+          {
+            "x": -2,
+            "y": -4
+          },
+          {
+            "x": -1,
+            "y": -4
+          },
+          {
+            "x": -3,
+            "y": -1
+          },
+          {
+            "x": -8,
+            "y": -5
+          },
+          {
+            "x": -7,
+            "y": -5
+          },
+          {
+            "x": 0,
+            "y": -3
+          },
+          {
+            "x": 1,
+            "y": -3
+          },
+          {
+            "x": -3,
+            "y": -4
+          },
+          {
+            "x": -2,
+            "y": -4
+          }
+        ],
+        "bot_scores": [
+          {
+            "id": "player",
+            "treasures": 3,
+            "alive": true
+          },
+          {
+            "id": 0,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 1,
+            "treasures": 1,
+            "alive": false
+          },
+          {
+            "id": 2,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 3,
+            "treasures": 0,
+            "alive": true
+          }
+        ],
+        "time_remaining": 95161,
+        "game_over": false,
+        "explosions_available": false
+      },
+      "action": "move_up",
+      "position": {
+        "x": 26,
+        "y": 26
+      },
+      "direction": 4.71238898038469,
+      "treasures": 3,
+      "remainingTraps": 9
+    },
+    {
+      "timestamp": 25003,
+      "state": {
+        "bot_id": "player",
+        "bot_position": {
+          "x": 27,
+          "y": 26
+        },
+        "bot_direction": 0,
+        "bot_treasures": 3,
+        "bot_remaining_traps": 9,
+        "bot_alive": true,
+        "total_treasures": 5,
+        "treasures_collected": 4,
+        "visible_treasures": [],
+        "visible_bots": [],
+        "visible_traps": [],
+        "visible_obstacles": [
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 8,
+            "y": -2
+          },
+          {
+            "x": 8,
+            "y": -1
+          },
+          {
+            "x": 9,
+            "y": 4
+          }
+        ],
+        "bot_scores": [
+          {
+            "id": "player",
+            "treasures": 3,
+            "alive": true
+          },
+          {
+            "id": 0,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 1,
+            "treasures": 1,
+            "alive": false
+          },
+          {
+            "id": 2,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 3,
+            "treasures": 0,
+            "alive": true
+          }
+        ],
+        "time_remaining": 94997,
+        "game_over": false,
+        "explosions_available": false
+      },
+      "action": "move_right",
+      "position": {
+        "x": 27,
+        "y": 26
+      },
+      "direction": 0,
+      "treasures": 3,
+      "remainingTraps": 9
+    },
+    {
+      "timestamp": 25197,
+      "state": {
+        "bot_id": "player",
+        "bot_position": {
+          "x": 28,
+          "y": 26
+        },
+        "bot_direction": 0,
+        "bot_treasures": 3,
+        "bot_remaining_traps": 9,
+        "bot_alive": true,
+        "total_treasures": 5,
+        "treasures_collected": 4,
+        "visible_treasures": [],
+        "visible_bots": [],
+        "visible_traps": [],
+        "visible_obstacles": [
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 2
+          },
+          {
+            "x": 7,
+            "y": -2
+          },
+          {
+            "x": 7,
+            "y": -1
+          },
+          {
+            "x": 8,
+            "y": 4
+          }
+        ],
+        "bot_scores": [
+          {
+            "id": "player",
+            "treasures": 3,
+            "alive": true
+          },
+          {
+            "id": 0,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 1,
+            "treasures": 1,
+            "alive": false
+          },
+          {
+            "id": 2,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 3,
+            "treasures": 0,
+            "alive": true
+          }
+        ],
+        "time_remaining": 94803,
+        "game_over": false,
+        "explosions_available": false
+      },
+      "action": "move_right",
+      "position": {
+        "x": 28,
+        "y": 26
+      },
+      "direction": 0,
+      "treasures": 3,
+      "remainingTraps": 9
+    },
+    {
+      "timestamp": 25321,
+      "state": {
+        "bot_id": "player",
+        "bot_position": {
+          "x": 27,
+          "y": 26
+        },
+        "bot_direction": 3.141592653589793,
+        "bot_treasures": 3,
+        "bot_remaining_traps": 9,
+        "bot_alive": true,
+        "total_treasures": 5,
+        "treasures_collected": 4,
+        "visible_treasures": [],
+        "visible_bots": [],
+        "visible_traps": [],
+        "visible_obstacles": [
+          {
+            "x": -4,
+            "y": -1
+          },
+          {
+            "x": -4,
+            "y": 0
+          },
+          {
+            "x": -4,
+            "y": 1
+          }
+        ],
+        "bot_scores": [
+          {
+            "id": "player",
+            "treasures": 3,
+            "alive": true
+          },
+          {
+            "id": 0,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 1,
+            "treasures": 1,
+            "alive": false
+          },
+          {
+            "id": 2,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 3,
+            "treasures": 0,
+            "alive": true
+          }
+        ],
+        "time_remaining": 94679,
+        "game_over": false,
+        "explosions_available": false
+      },
+      "action": "move_left",
+      "position": {
+        "x": 27,
+        "y": 26
+      },
+      "direction": 3.141592653589793,
+      "treasures": 3,
+      "remainingTraps": 9
+    },
+    {
+      "timestamp": 25497,
+      "state": {
+        "bot_id": "player",
+        "bot_position": {
+          "x": 26,
+          "y": 26
+        },
+        "bot_direction": 3.141592653589793,
+        "bot_treasures": 3,
+        "bot_remaining_traps": 9,
+        "bot_alive": true,
+        "total_treasures": 5,
+        "treasures_collected": 4,
+        "visible_treasures": [],
+        "visible_bots": [],
+        "visible_traps": [],
+        "visible_obstacles": [
+          {
+            "x": -3,
+            "y": -1
+          },
+          {
+            "x": -3,
+            "y": 0
+          },
+          {
+            "x": -3,
+            "y": 1
+          }
+        ],
+        "bot_scores": [
+          {
+            "id": "player",
+            "treasures": 3,
+            "alive": true
+          },
+          {
+            "id": 0,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 1,
+            "treasures": 1,
+            "alive": false
+          },
+          {
+            "id": 2,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 3,
+            "treasures": 0,
+            "alive": true
+          }
+        ],
+        "time_remaining": 94503,
+        "game_over": false,
+        "explosions_available": false
+      },
+      "action": "move_left",
+      "position": {
+        "x": 26,
+        "y": 26
+      },
+      "direction": 3.141592653589793,
+      "treasures": 3,
+      "remainingTraps": 9
+    },
+    {
+      "timestamp": 25707,
+      "state": {
+        "bot_id": "player",
+        "bot_position": {
+          "x": 26,
+          "y": 25
+        },
+        "bot_direction": 4.71238898038469,
+        "bot_treasures": 3,
+        "bot_remaining_traps": 9,
+        "bot_alive": true,
+        "total_treasures": 5,
+        "treasures_collected": 4,
+        "visible_treasures": [],
+        "visible_bots": [
+          {
+            "id": 2,
+            "x": -8,
+            "y": -2,
+            "treasures": 0,
+            "traps_remaining": 4
+          }
+        ],
+        "visible_traps": [],
+        "visible_obstacles": [
+          {
+            "x": -2,
+            "y": -3
+          },
+          {
+            "x": -1,
+            "y": -3
+          },
+          {
+            "x": -8,
+            "y": -4
+          },
+          {
+            "x": -7,
+            "y": -4
+          },
+          {
+            "x": 0,
+            "y": -2
+          },
+          {
+            "x": 1,
+            "y": -2
+          },
+          {
+            "x": -3,
+            "y": -3
+          },
+          {
+            "x": -2,
+            "y": -3
+          }
+        ],
+        "bot_scores": [
+          {
+            "id": "player",
+            "treasures": 3,
+            "alive": true
+          },
+          {
+            "id": 0,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 1,
+            "treasures": 1,
+            "alive": false
+          },
+          {
+            "id": 2,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 3,
+            "treasures": 0,
+            "alive": true
+          }
+        ],
+        "time_remaining": 94293,
+        "game_over": false,
+        "explosions_available": false
+      },
+      "action": "move_up",
+      "position": {
+        "x": 26,
+        "y": 25
+      },
+      "direction": 4.71238898038469,
+      "treasures": 3,
+      "remainingTraps": 9
+    },
+    {
+      "timestamp": 25904,
+      "state": {
+        "bot_id": "player",
+        "bot_position": {
+          "x": 26,
+          "y": 24
+        },
+        "bot_direction": 4.71238898038469,
+        "bot_treasures": 3,
+        "bot_remaining_traps": 9,
+        "bot_alive": true,
+        "total_treasures": 5,
+        "treasures_collected": 4,
+        "visible_treasures": [],
+        "visible_bots": [
+          {
+            "id": 2,
+            "x": -8,
+            "y": -1,
+            "treasures": 0,
+            "traps_remaining": 4
+          }
+        ],
+        "visible_traps": [],
+        "visible_obstacles": [
+          {
+            "x": -2,
+            "y": -2
+          },
+          {
+            "x": -7,
+            "y": -3
+          },
+          {
+            "x": 0,
+            "y": -1
+          },
+          {
+            "x": -3,
+            "y": -2
+          },
+          {
+            "x": -2,
+            "y": -2
+          }
+        ],
+        "bot_scores": [
+          {
+            "id": "player",
+            "treasures": 3,
+            "alive": true
+          },
+          {
+            "id": 0,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 1,
+            "treasures": 1,
+            "alive": false
+          },
+          {
+            "id": 2,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 3,
+            "treasures": 0,
+            "alive": true
+          }
+        ],
+        "time_remaining": 94096,
+        "game_over": false,
+        "explosions_available": false
+      },
+      "action": "move_up",
+      "position": {
+        "x": 26,
+        "y": 24
+      },
+      "direction": 4.71238898038469,
+      "treasures": 3,
+      "remainingTraps": 9
+    },
+    {
+      "timestamp": 26112,
+      "state": {
+        "bot_id": "player",
+        "bot_position": {
+          "x": 25,
+          "y": 24
+        },
+        "bot_direction": 3.141592653589793,
+        "bot_treasures": 3,
+        "bot_remaining_traps": 9,
+        "bot_alive": true,
+        "total_treasures": 5,
+        "treasures_collected": 4,
+        "visible_treasures": [],
+        "visible_bots": [
+          {
+            "id": 2,
+            "x": -7,
+            "y": -2,
+            "treasures": 0,
+            "traps_remaining": 4
+          }
+        ],
+        "visible_traps": [],
+        "visible_obstacles": [
+          {
+            "x": -2,
+            "y": 1
+          },
+          {
+            "x": -6,
+            "y": -3
+          }
+        ],
+        "bot_scores": [
+          {
+            "id": "player",
+            "treasures": 3,
+            "alive": true
+          },
+          {
+            "id": 0,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 1,
+            "treasures": 1,
+            "alive": false
+          },
+          {
+            "id": 2,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 3,
+            "treasures": 0,
+            "alive": true
+          }
+        ],
+        "time_remaining": 93888,
+        "game_over": false,
+        "explosions_available": false
+      },
+      "action": "move_left",
+      "position": {
+        "x": 25,
+        "y": 24
+      },
+      "direction": 3.141592653589793,
+      "treasures": 3,
+      "remainingTraps": 9
+    },
+    {
+      "timestamp": 26315,
+      "state": {
+        "bot_id": "player",
+        "bot_position": {
+          "x": 24,
+          "y": 24
+        },
+        "bot_direction": 3.141592653589793,
+        "bot_treasures": 3,
+        "bot_remaining_traps": 9,
+        "bot_alive": true,
+        "total_treasures": 5,
+        "treasures_collected": 4,
+        "visible_treasures": [],
+        "visible_bots": [
+          {
+            "id": 2,
+            "x": -6,
+            "y": -2,
+            "treasures": 0,
+            "traps_remaining": 4
+          }
+        ],
+        "visible_traps": [],
+        "visible_obstacles": [
+          {
+            "x": -2,
+            "y": 1
+          },
+          {
+            "x": -6,
+            "y": -3
+          }
+        ],
+        "bot_scores": [
+          {
+            "id": "player",
+            "treasures": 3,
+            "alive": true
+          },
+          {
+            "id": 0,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 1,
+            "treasures": 1,
+            "alive": false
+          },
+          {
+            "id": 2,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 3,
+            "treasures": 0,
+            "alive": true
+          }
+        ],
+        "time_remaining": 93685,
+        "game_over": false,
+        "explosions_available": false
+      },
+      "action": "move_left",
+      "position": {
+        "x": 24,
+        "y": 24
+      },
+      "direction": 3.141592653589793,
+      "treasures": 3,
+      "remainingTraps": 9
+    },
+    {
+      "timestamp": 26519,
+      "state": {
+        "bot_id": "player",
+        "bot_position": {
+          "x": 23,
+          "y": 24
+        },
+        "bot_direction": 3.141592653589793,
+        "bot_treasures": 3,
+        "bot_remaining_traps": 9,
+        "bot_alive": true,
+        "total_treasures": 5,
+        "treasures_collected": 4,
+        "visible_treasures": [],
+        "visible_bots": [
+          {
+            "id": 2,
+            "x": -5,
+            "y": -2,
+            "treasures": 0,
+            "traps_remaining": 4
+          }
+        ],
+        "visible_traps": [],
+        "visible_obstacles": [
+          {
+            "x": -6,
+            "y": -3
+          }
+        ],
+        "bot_scores": [
+          {
+            "id": "player",
+            "treasures": 3,
+            "alive": true
+          },
+          {
+            "id": 0,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 1,
+            "treasures": 1,
+            "alive": false
+          },
+          {
+            "id": 2,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 3,
+            "treasures": 0,
+            "alive": true
+          }
+        ],
+        "time_remaining": 93481,
+        "game_over": false,
+        "explosions_available": false
+      },
+      "action": "move_left",
+      "position": {
+        "x": 23,
+        "y": 24
+      },
+      "direction": 3.141592653589793,
+      "treasures": 3,
+      "remainingTraps": 9
+    },
+    {
+      "timestamp": 27019,
+      "state": {
+        "bot_id": "player",
+        "bot_position": {
+          "x": 22,
+          "y": 24
+        },
+        "bot_direction": 3.141592653589793,
+        "bot_treasures": 3,
+        "bot_remaining_traps": 9,
+        "bot_alive": true,
+        "total_treasures": 5,
+        "treasures_collected": 4,
+        "visible_treasures": [],
+        "visible_bots": [
+          {
+            "id": 2,
+            "x": -4,
+            "y": -1,
+            "treasures": 0,
+            "traps_remaining": 4
+          }
+        ],
+        "visible_traps": [],
+        "visible_obstacles": [
+          {
+            "x": -9,
+            "y": -2
+          },
+          {
+            "x": -9,
+            "y": -1
+          }
+        ],
+        "bot_scores": [
+          {
+            "id": "player",
+            "treasures": 3,
+            "alive": true
+          },
+          {
+            "id": 0,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 1,
+            "treasures": 1,
+            "alive": false
+          },
+          {
+            "id": 2,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 3,
+            "treasures": 0,
+            "alive": true
+          }
+        ],
+        "time_remaining": 92981,
+        "game_over": false,
+        "explosions_available": false
+      },
+      "action": "move_left",
+      "position": {
+        "x": 22,
+        "y": 24
+      },
+      "direction": 3.141592653589793,
+      "treasures": 3,
+      "remainingTraps": 9
+    },
+    {
+      "timestamp": 27102,
+      "state": {
+        "bot_id": "player",
+        "bot_position": {
+          "x": 21,
+          "y": 24
+        },
+        "bot_direction": 3.141592653589793,
+        "bot_treasures": 3,
+        "bot_remaining_traps": 9,
+        "bot_alive": true,
+        "total_treasures": 5,
+        "treasures_collected": 4,
+        "visible_treasures": [],
+        "visible_bots": [
+          {
+            "id": 2,
+            "x": -3,
+            "y": -1,
+            "treasures": 0,
+            "traps_remaining": 4
+          }
+        ],
+        "visible_traps": [],
+        "visible_obstacles": [
+          {
+            "x": -8,
+            "y": -2
+          },
+          {
+            "x": -8,
+            "y": -1
+          }
+        ],
+        "bot_scores": [
+          {
+            "id": "player",
+            "treasures": 3,
+            "alive": true
+          },
+          {
+            "id": 0,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 1,
+            "treasures": 1,
+            "alive": false
+          },
+          {
+            "id": 2,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 3,
+            "treasures": 0,
+            "alive": true
+          }
+        ],
+        "time_remaining": 92898,
+        "game_over": false,
+        "explosions_available": false
+      },
+      "action": "move_left",
+      "position": {
+        "x": 21,
+        "y": 24
+      },
+      "direction": 3.141592653589793,
+      "treasures": 3,
+      "remainingTraps": 9
+    },
+    {
+      "timestamp": 27184,
+      "state": {
+        "bot_id": "player",
+        "bot_position": {
+          "x": 20,
+          "y": 24
+        },
+        "bot_direction": 3.141592653589793,
+        "bot_treasures": 3,
+        "bot_remaining_traps": 9,
+        "bot_alive": true,
+        "total_treasures": 5,
+        "treasures_collected": 4,
+        "visible_treasures": [],
+        "visible_bots": [
+          {
+            "id": 2,
+            "x": -2,
+            "y": -1,
+            "treasures": 0,
+            "traps_remaining": 4
+          }
+        ],
+        "visible_traps": [],
+        "visible_obstacles": [
+          {
+            "x": -7,
+            "y": -2
+          },
+          {
+            "x": -7,
+            "y": -1
+          }
+        ],
+        "bot_scores": [
+          {
+            "id": "player",
+            "treasures": 3,
+            "alive": true
+          },
+          {
+            "id": 0,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 1,
+            "treasures": 1,
+            "alive": false
+          },
+          {
+            "id": 2,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 3,
+            "treasures": 0,
+            "alive": true
+          }
+        ],
+        "time_remaining": 92816,
+        "game_over": false,
+        "explosions_available": false
+      },
+      "action": "move_left",
+      "position": {
+        "x": 20,
+        "y": 24
+      },
+      "direction": 3.141592653589793,
+      "treasures": 3,
+      "remainingTraps": 9
+    },
+    {
+      "timestamp": 27281,
+      "state": {
+        "bot_id": "player",
+        "bot_position": {
+          "x": 20,
+          "y": 24
+        },
+        "bot_direction": 3.141592653589793,
+        "bot_treasures": 3,
+        "bot_remaining_traps": 8,
+        "bot_alive": true,
+        "total_treasures": 5,
+        "treasures_collected": 4,
+        "visible_treasures": [],
+        "visible_bots": [
+          {
+            "id": 2,
+            "x": -2,
+            "y": -1,
+            "treasures": 0,
+            "traps_remaining": 4
+          }
+        ],
+        "visible_traps": [],
+        "visible_obstacles": [
+          {
+            "x": -7,
+            "y": -2
+          },
+          {
+            "x": -7,
+            "y": -1
+          }
+        ],
+        "bot_scores": [
+          {
+            "id": "player",
+            "treasures": 3,
+            "alive": true
+          },
+          {
+            "id": 0,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 1,
+            "treasures": 1,
+            "alive": false
+          },
+          {
+            "id": 2,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 3,
+            "treasures": 0,
+            "alive": true
+          }
+        ],
+        "time_remaining": 92719,
+        "game_over": false,
+        "explosions_available": true
+      },
+      "action": "drop_trap",
+      "position": {
+        "x": 20,
+        "y": 24
+      },
+      "direction": 3.141592653589793,
+      "treasures": 3,
+      "remainingTraps": 8
+    },
+    {
+      "timestamp": 27403,
+      "state": {
+        "bot_id": "player",
+        "bot_position": {
+          "x": 20,
+          "y": 24
+        },
+        "bot_direction": 3.141592653589793,
+        "bot_treasures": 3,
+        "bot_remaining_traps": 8,
+        "bot_alive": true,
+        "total_treasures": 5,
+        "treasures_collected": 4,
+        "visible_treasures": [],
+        "visible_bots": [],
+        "visible_traps": [],
+        "visible_obstacles": [
+          {
+            "x": -7,
+            "y": -2
+          },
+          {
+            "x": -7,
+            "y": -1
+          }
+        ],
+        "bot_scores": [
+          {
+            "id": "player",
+            "treasures": 3,
+            "alive": true
+          },
+          {
+            "id": 0,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 1,
+            "treasures": 1,
+            "alive": false
+          },
+          {
+            "id": 2,
+            "treasures": 0,
+            "alive": false
+          },
+          {
+            "id": 3,
+            "treasures": 0,
+            "alive": true
+          }
+        ],
+        "time_remaining": 92597,
+        "game_over": false,
+        "explosions_available": false
+      },
+      "action": "explode_traps",
+      "position": {
+        "x": 20,
+        "y": 24
+      },
+      "direction": 3.141592653589793,
+      "treasures": 3,
+      "remainingTraps": 8
+    },
+    {
+      "timestamp": 28407,
+      "state": {
+        "bot_id": "player",
+        "bot_position": {
+          "x": 21,
+          "y": 24
+        },
+        "bot_direction": 0,
+        "bot_treasures": 3,
+        "bot_remaining_traps": 8,
+        "bot_alive": true,
+        "total_treasures": 5,
+        "treasures_collected": 4,
+        "visible_treasures": [],
+        "visible_bots": [],
+        "visible_traps": [],
+        "visible_obstacles": [
+          {
+            "x": 4,
+            "y": -2
+          },
+          {
+            "x": 2,
+            "y": 1
+          },
+          {
+            "x": 5,
+            "y": -1
+          }
+        ],
+        "bot_scores": [
+          {
+            "id": "player",
+            "treasures": 3,
+            "alive": true
+          },
+          {
+            "id": 0,
+            "treasures": 0,
+            "alive": true
+          },
+          {
+            "id": 1,
+            "treasures": 1,
+            "alive": false
+          },
+          {
+            "id": 2,
+            "treasures": 0,
+            "alive": false
+          },
+          {
+            "id": 3,
+            "treasures": 0,
+            "alive": true
+          }
+        ],
+        "time_remaining": 91593,
+        "game_over": false,
+        "explosions_available": false
+      },
+      "action": "move_right",
+      "position": {
+        "x": 21,
+        "y": 24
+      },
+      "direction": 0,
+      "treasures": 3,
+      "remainingTraps": 8
+    }
+  ]
+}

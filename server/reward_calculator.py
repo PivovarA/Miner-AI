@@ -1,4 +1,5 @@
 # reward_calculator.py
+from agent_config import REWARD_CONFIG
 
 class RewardCalculator:
     @staticmethod
@@ -18,17 +19,17 @@ class RewardCalculator:
             
             treasures_collected = current_treasures - previous_treasures
             if treasures_collected > 0:
-                reward += treasures_collected * 50  # Big reward for collecting treasures
+                reward += treasures_collected * REWARD_CONFIG['treasure_collection']
             
             # 2. SPOTTING ENEMIES REWARD (Information gathering)
             visible_bots = game_state.get('visible_bots', [])
             if len(visible_bots) > 0:
-                reward += len(visible_bots) * 5  # Reward for spotting each enemy
+                reward += len(visible_bots) * REWARD_CONFIG['spot_enemy']
                 
                 # Extra reward for spotting enemies with treasures
                 for bot in visible_bots:
                     if bot.get('treasures', 0) > 0:
-                        reward += 3  # Bonus for spotting enemies with treasures
+                        reward += REWARD_CONFIG['spot_enemy_with_treasure']
             
             # 3. ENEMIES DESTROYED REWARD (Combat success)
             # Track enemy eliminations by checking alive status of visible bots
@@ -43,10 +44,10 @@ class RewardCalculator:
                         all_bots = game_state.get('bot_scores', [])
                         dead_bot = next((b for b in all_bots if b['id'] == prev_bot_id and not b['alive']), None)
                         if dead_bot:
-                            reward += 100  # Big reward for eliminating an enemy
+                            reward += REWARD_CONFIG['enemy_elimination']
                             # Extra reward for eliminating enemies with treasures
                             if dead_bot.get('treasures', 0) > 0:
-                                reward += dead_bot['treasures'] * 20
+                                reward += dead_bot['treasures'] * REWARD_CONFIG['eliminate_enemy_with_treasure_multiplier']
             
             # Update tracking for next iteration
             bot_states[bot_id]['previous_visible_bots'] = {bot['id']: bot for bot in visible_bots}
@@ -65,7 +66,7 @@ class RewardCalculator:
                         explosion_killed_someone = True
                 
                 if not explosion_killed_someone and len(visible_bots) == 0:
-                    reward -= 30  # Penalty for wasting explosion without any visible enemies
+                    reward += REWARD_CONFIG['wasted_explosion_penalty']
             
             # Update alive count for next iteration
             bot_states[bot_id]['previous_alive_count'] = sum(1 for b in game_state.get('bot_scores', []) if b['alive'])
@@ -81,26 +82,26 @@ class RewardCalculator:
                 # Simple check: if we're close to another bot, assume we might be spotted
                 distance = abs(other_x - my_position.get('x', 0)) + abs(other_y - my_position.get('y', 0))
                 if distance < 5:  # Within 5 tiles
-                    reward -= 5  # Small penalty for potentially being spotted
+                    reward += REWARD_CONFIG['being_spotted_penalty']
             
             # Penalty for dying
             if not game_state.get('bot_alive', True):
-                reward -= 100  # Large penalty for dying
+                reward += REWARD_CONFIG['death_penalty']
             
             # Small penalties/rewards for basic actions
             if bot_states[bot_id]['last_action'] in ['move_up', 'move_down', 'move_left', 'move_right']:
-                reward -= 0.1  # Very small movement cost
+                reward += REWARD_CONFIG['movement_cost']
             elif bot_states[bot_id]['last_action'] == 'wait':
-                reward -= 2  # Penalty for inactivity
+                reward += REWARD_CONFIG['wait_penalty']
             elif bot_states[bot_id]['last_action'] == 'drop_trap':
                 if len(visible_bots) > 0:
-                    reward += 5  # Reward for strategic trap placement
+                    reward += REWARD_CONFIG['strategic_trap_reward']
                 else:
-                    reward -= 2  # Small penalty for blind trap placement
+                    reward += REWARD_CONFIG['blind_trap_penalty']
             
             # Survival bonus (small reward for staying alive)
             if game_state.get('bot_alive', True):
-                reward += 1
+                reward += REWARD_CONFIG['survival_bonus']
             
             # Competition reward based on ranking
             bot_scores = game_state.get('bot_scores', [])
@@ -108,9 +109,9 @@ class RewardCalculator:
             if my_score and bot_scores:
                 my_rank = sorted(bot_scores, key=lambda x: x.get('treasures', 0), reverse=True).index(my_score)
                 if my_rank == 0:
-                    reward += 10  # Leader bonus
+                    reward += REWARD_CONFIG['leader_bonus']
                 elif my_rank == len(bot_scores) - 1:
-                    reward -= 10  # Last place penalty
+                    reward += REWARD_CONFIG['last_place_penalty']
             
             return reward
         
