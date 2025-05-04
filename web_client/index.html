@@ -82,7 +82,7 @@
         const USE_SERVER_BOT = true; // Set to true to use Python server for bot control
         let DISABLE_PLAYER = true; // Will be controlled by checkbox
         const NUM_BOTS = 4; // Number of bots to spawn
-        const GAME_DURATION = 60000; // Game duration in milliseconds (60 seconds)
+        const GAME_DURATION = 120000; // Game duration in milliseconds (60 seconds)
         const SERVER_URL = 'http://localhost:5001';
         const EXPLOSION_DURATION = 1000; // Explosion animation duration in milliseconds
 
@@ -604,12 +604,16 @@
             };
         }
 
-        // Update all bots from server
-        async function updateBotsFromServer() {
-            if (!USE_SERVER_BOT || waitingForServer || !gameActive) return;
+// Update all bots from server
+async function updateBotsFromServer() {
+            // Immediately return if game is not active or waiting for server
+            if (!USE_SERVER_BOT || waitingForServer || !gameActive || !gameRunning) return;
 
             // Only update bots every N frames to make them slower
             if (frameCount % 10 !== 0) return;
+
+            // Double-check that the game is still active
+            if (!gameActive || !gameRunning) return;
 
             // Update each bot
             for (let i = 0; i < bots.length; i++) {
@@ -630,29 +634,31 @@
                     const data = await response.json();
                     const action = data.action;
                     
-                    // Execute action
-                    switch(action) {
-                        case 'move_up':
-                            if (move(bot, 0, -1)) updateDirection(bot, 0, -1);
-                            break;
-                        case 'move_down':
-                            if (move(bot, 0, 1)) updateDirection(bot, 0, 1);
-                            break;
-                        case 'move_left':
-                            if (move(bot, -1, 0)) updateDirection(bot, -1, 0);
-                            break;
-                        case 'move_right':
-                            if (move(bot, 1, 0)) updateDirection(bot, 1, 0);
-                            break;
-                        case 'drop_trap':
-                            dropTrap(bot, botTraps[i]);
-                            break;
-                        case 'explode_traps':
-                            explodeTraps(bot, botTraps[i]);
-                            break;
-                        case 'wait':
-                            // Do nothing
-                            break;
+                    // Execute action only if game is still active
+                    if (gameActive && gameRunning) {
+                        switch(action) {
+                            case 'move_up':
+                                if (move(bot, 0, -1)) updateDirection(bot, 0, -1);
+                                break;
+                            case 'move_down':
+                                if (move(bot, 0, 1)) updateDirection(bot, 0, 1);
+                                break;
+                            case 'move_left':
+                                if (move(bot, -1, 0)) updateDirection(bot, -1, 0);
+                                break;
+                            case 'move_right':
+                                if (move(bot, 1, 0)) updateDirection(bot, 1, 0);
+                                break;
+                            case 'drop_trap':
+                                dropTrap(bot, botTraps[i]);
+                                break;
+                            case 'explode_traps':
+                                explodeTraps(bot, botTraps[i]);
+                                break;
+                            case 'wait':
+                                // Do nothing
+                                break;
+                        }
                     }
                     
                 } catch (error) {

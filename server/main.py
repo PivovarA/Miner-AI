@@ -35,6 +35,9 @@ training_manager = TrainingManager()
 bot_states = {}
 lock = threading.Lock()
 
+USE_PLAYER_MODEL=False
+PLAYER_MODEL_BOTS=[0]
+
 @app.route('/get_action', methods=['POST'])
 def get_action():
     global bot_states
@@ -174,7 +177,7 @@ def game_over():
                         final_reward += 20
                     elif bot_rank == 2:
                         final_reward += 5
-                    else:
+                    elif bot_rank >= 3:
                         final_reward -= 20  # Penalty for last place
                 
                 # Survival bonus
@@ -202,8 +205,8 @@ def game_over():
                 print(f"Bot {bot_id} - Episode Reward: {bot_states[bot_id]['episode_reward']:.2f}")
             
             # Check if all bots have completed
-            completed_bots = sum(1 for id in bot_states if bot_states[id].get('episode_reward', 0) != 0)
-            if completed_bots >= len(bot_states) and completed_bots >= 4:  # All bots have completed
+            completed_bots = sum(1 for id in bot_states if 'episode_reward' in bot_states[id] and bot_states[id]['episode_reward'] != 0)
+            if completed_bots >= min(len(bot_states), 4):  # All bots have completed
                 agent.episodes += 1
                 agent.update_epsilon()
                 
@@ -226,6 +229,8 @@ def game_over():
     
     except Exception as e:
         print(f"Error in game_over: {e}")
+        import traceback
+        traceback.print_exc()
         return jsonify({'status': 'error', 'message': str(e)})
 
 if __name__ == '__main__':

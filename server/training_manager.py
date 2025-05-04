@@ -36,16 +36,26 @@ class TrainingManager:
     def update_episode_stats(self, bot_states, agent_epsilon):
         self.current_episode += 1
         
-        # Calculate episode statistics
-        total_rewards = sum(bot_states[id]['reward'] for id in bot_states)
-        avg_reward = total_rewards / max(1, len(bot_states))
+        # Calculate episode statistics - be more careful with missing data
+        total_rewards = 0
+        valid_bot_count = 0
+        individual_rewards = {}
+        
+        for bot_id in bot_states:
+            if 'episode_reward' in bot_states[bot_id]:
+                reward = bot_states[bot_id]['episode_reward']
+                total_rewards += reward
+                valid_bot_count += 1
+                individual_rewards[bot_id] = reward
+        
+        avg_reward = total_rewards / max(1, valid_bot_count)
         
         self.episode_stats.append({
             'episode': self.current_episode,
             'total_reward': total_rewards,
             'avg_reward': avg_reward,
             'epsilon': agent_epsilon,
-            'individual_rewards': {id: bot_states[id]['reward'] for id in bot_states}
+            'individual_rewards': individual_rewards
         })
         
         # Log progress
@@ -53,5 +63,6 @@ class TrainingManager:
         print(f"  Average Reward: {avg_reward:.2f}")
         print(f"  Total Reward: {total_rewards:.2f}")
         print(f"  Epsilon: {agent_epsilon:.3f}")
+        print(f"  Valid bots: {valid_bot_count}")
         
         return avg_reward, total_rewards
